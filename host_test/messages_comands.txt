@@ -1,0 +1,7 @@
+Grupo 1:
+./cliente_recv client-1 1 br6
+./cliente_send client-2 1 "Hola grupo 1"
+
+Grupo 2:
+./cliente_recv client-2 2 br6
+./cliente_send client-7 2 "Hola grupo 2"

@@ -13,13 +13,13 @@ lxc exec m3 -- pkill -f servidor_grupo_m3 2>/dev/null
 sleep 1
 
 echo "Levantando M1 - servidor central..."
-lxc exec m1 -- stdbuf -oL -eL ./servidor_central > m1.log 2>&1 &
+lxc exec m1 -- stdbuf -oL -eL ./servidor_central 
 
 echo "Levantando M2 - servidor grupo 1..."
-lxc exec m2 -- stdbuf -oL -eL ./servidor_grupo_m2 1 4001 ff15::1 5001 > m2.log 2>&1 &
+lxc exec m2 -- stdbuf -oL -eL ./servidor_grupo_m2 1 4001 ff15::1 5001
 
 echo "Levantando M3 - servidor grupo 2..."
-lxc exec m3 -- stdbuf -oL -eL ./servidor_grupo_m3 2 4002 ff15::2 5002 > m3.log 2>&1 &
+lxc exec m3 -- stdbuf -oL -eL ./servidor_grupo_m3 2 4002 ff15::2 5002
 
 
 sleep 2
