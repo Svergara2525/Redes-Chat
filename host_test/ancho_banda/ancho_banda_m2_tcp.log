@@ -1,0 +1,19 @@
+Connecting to host 2001:720:1d10:fff0:216:3eff:fe97:d4e3, port 5201
+[  5] local 2001:720:1d10:fff0:0:1:0:2 port 33210 connected to 2001:720:1d10:fff0:216:3eff:fe97:d4e3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.90 GBytes  16.3 Gbits/sec    0   9.00 MBytes       
+[  5]   1.00-2.00   sec  1.93 GBytes  16.5 Gbits/sec    0   9.00 MBytes       
+[  5]   2.00-3.00   sec  1.70 GBytes  14.6 Gbits/sec    0   9.00 MBytes       
+[  5]   3.00-4.00   sec  1.86 GBytes  16.0 Gbits/sec    0   9.00 MBytes       
+[  5]   4.00-5.00   sec  1.78 GBytes  15.3 Gbits/sec    0   9.00 MBytes       
+[  5]   5.00-6.00   sec  1.66 GBytes  14.3 Gbits/sec    0   9.00 MBytes       
+[  5]   6.00-7.02   sec  1.95 GBytes  16.4 Gbits/sec    0   9.00 MBytes       
+[  5]   7.02-8.00   sec  1.83 GBytes  16.1 Gbits/sec    0   9.00 MBytes       
+[  5]   8.00-9.00   sec  1.78 GBytes  15.3 Gbits/sec    0   9.00 MBytes       
+[  5]   9.00-10.00  sec  1.96 GBytes  16.8 Gbits/sec    0   9.00 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  18.3 GBytes  15.8 Gbits/sec    0             sender
+[  5]   0.00-10.00  sec  18.3 GBytes  15.8 Gbits/sec                  receiver
+
+iperf Done.

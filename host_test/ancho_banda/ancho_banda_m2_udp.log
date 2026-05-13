@@ -1,0 +1,19 @@
+Connecting to host 2001:720:1d10:fff0:216:3eff:fe97:d4e3, port 5201
+[  5] local 2001:720:1d10:fff0:0:1:0:2 port 38255 connected to 2001:720:1d10:fff0:216:3eff:fe97:d4e3 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.02   sec  11.9 MBytes  97.9 Mbits/sec  10310  
+[  5]   1.02-2.00   sec  12.0 MBytes   102 Mbits/sec  10379  
+[  5]   2.00-3.01   sec  11.8 MBytes  98.5 Mbits/sec  10253  
+[  5]   3.01-4.00   sec  11.8 MBytes   100 Mbits/sec  10277  
+[  5]   4.00-5.00   sec  12.1 MBytes   102 Mbits/sec  10520  
+[  5]   5.00-6.02   sec  11.9 MBytes  98.3 Mbits/sec  10329  
+[  5]   6.02-7.00   sec  11.8 MBytes   100 Mbits/sec  10203  
+[  5]   7.00-8.01   sec  12.0 MBytes  99.9 Mbits/sec  10407  
+[  5]   8.01-9.00   sec  11.9 MBytes   100 Mbits/sec  10310  
+[  5]   9.00-10.00  sec  12.1 MBytes   102 Mbits/sec  10487  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   119 MBytes   100 Mbits/sec  0.000 ms  0/103475 (0%)  sender
+[  5]   0.00-10.00  sec  66.8 MBytes  56.0 Mbits/sec  0.053 ms  45485/103475 (44%)  receiver
+
+iperf Done.

@@ -1,0 +1,105 @@
+======================================
+PRUEBA: 03_ancho_banda_1mbit
+FECHA: mié 13 may 2026 22:49:21 CEST
+======================================
+
+[1] Limpiando reglas tc anteriores...
+[2] Aplicando regla tc:
+sudo tc qdisc add dev br6 root tbf rate 1mbit burst 16kbit latency 400ms
+
+[3] Estado de tc:
+qdisc tbf 8002: root refcnt 2 rate 1Mbit burst 2Kb lat 400ms 
+
+[4] Ping IPv6 a M2:
+PING 2001:720:1d10:fff0:216:3eff:fe97:d4e3(2001:720:1d10:fff0:216:3eff:fe97:d4e3) 56 data bytes
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=1 ttl=64 time=0.030 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=2 ttl=64 time=0.072 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=3 ttl=64 time=0.071 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=4 ttl=64 time=0.067 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=5 ttl=64 time=0.061 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=6 ttl=64 time=0.092 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=7 ttl=64 time=0.064 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=8 ttl=64 time=0.071 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=9 ttl=64 time=0.080 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe97:d4e3: icmp_seq=10 ttl=64 time=0.074 ms
+
+--- 2001:720:1d10:fff0:216:3eff:fe97:d4e3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9235ms
+rtt min/avg/max/mdev = 0.030/0.068/0.092/0.015 ms
+
+[5] Ping IPv6 a M3:
+PING 2001:720:1d10:fff0:216:3eff:fe4f:b1a8(2001:720:1d10:fff0:216:3eff:fe4f:b1a8) 56 data bytes
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=1 ttl=64 time=0.027 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=2 ttl=64 time=0.077 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=3 ttl=64 time=0.070 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=4 ttl=64 time=0.073 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=5 ttl=64 time=0.087 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=6 ttl=64 time=0.075 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=7 ttl=64 time=0.079 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=8 ttl=64 time=0.083 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=9 ttl=64 time=0.062 ms
+64 bytes from 2001:720:1d10:fff0:216:3eff:fe4f:b1a8: icmp_seq=10 ttl=64 time=0.072 ms
+
+--- 2001:720:1d10:fff0:216:3eff:fe4f:b1a8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9253ms
+rtt min/avg/max/mdev = 0.027/0.070/0.087/0.015 ms
+
+[6] Envío mensaje grupo 1:
+=============================================
+ Cliente emisor iniciado
+ client_id: test-03_ancho_banda_1mbit-g1
+ grupo: 1
+ mensaje base: Mensaje prueba 03_ancho_banda_1mbit grupo 1
+ modo: envío único
+=============================================
+
+[CLIENTE] Conectando con servidor central M1 [2001:720:1d10:fff0:216:3eff:feec:ee82]:3000...
+[CLIENTE] Solicitando información del grupo 1...
+[CLIENTE] Respuesta de M1: 2001:720:1d10:fff0:216:3eff:fe97:d4e3 4001 ff15::1 5001
+[CLIENTE] Grupo 1 localizado:
+          Servidor grupo: [2001:720:1d10:fff0:216:3eff:fe97:d4e3]:4001
+          Multicast: [ff15::1]:5001
+[CLIENTE test-03_ancho_banda_1mbit-g1] Conectando con servidor de grupo [2001:720:1d10:fff0:216:3eff:fe97:d4e3]:4001...
+[CLIENTE test-03_ancho_banda_1mbit-g1] Enviando mensaje:
+client_id=test-03_ancho_banda_1mbit-g1; group_id=1; seq=1; timestamp_ms=1778705380562; message=Mensaje prueba 03_ancho_banda_1mbit grupo 1
+[CLIENTE test-03_ancho_banda_1mbit-g1] ACK recibido: OK mensaje_recibido
+
+[CLIENTE test-03_ancho_banda_1mbit-g1] Finalizando cliente emisor
+
+[7] Envío mensaje grupo 2:
+=============================================
+ Cliente emisor iniciado
+ client_id: test-03_ancho_banda_1mbit-g2
+ grupo: 2
+ mensaje base: Mensaje prueba 03_ancho_banda_1mbit grupo 2
+ modo: envío único
+=============================================
+
+[CLIENTE] Conectando con servidor central M1 [2001:720:1d10:fff0:216:3eff:feec:ee82]:3000...
+[CLIENTE] Solicitando información del grupo 2...
+[CLIENTE] Respuesta de M1: 2001:720:1d10:fff0:216:3eff:fe4f:b1a8 4002 ff15::2 5002
+[CLIENTE] Grupo 2 localizado:
+          Servidor grupo: [2001:720:1d10:fff0:216:3eff:fe4f:b1a8]:4002
+          Multicast: [ff15::2]:5002
+[CLIENTE test-03_ancho_banda_1mbit-g2] Conectando con servidor de grupo [2001:720:1d10:fff0:216:3eff:fe4f:b1a8]:4002...
+[CLIENTE test-03_ancho_banda_1mbit-g2] Enviando mensaje:
+client_id=test-03_ancho_banda_1mbit-g2; group_id=2; seq=1; timestamp_ms=1778705380639; message=Mensaje prueba 03_ancho_banda_1mbit grupo 2
+[CLIENTE test-03_ancho_banda_1mbit-g2] ACK recibido: OK mensaje_recibido
+
+[CLIENTE test-03_ancho_banda_1mbit-g2] Finalizando cliente emisor
+
+[8] Histórico grupo 1:
+[2026-05-13 18:29:28] Grupo 1 | origen [2001:720:1d10:fff0:0:1:0:2]:40060 | mensaje: client_id=client-2; group_id=1; seq=1; timestamp_ms=1778696968366; message=Hola grupo 1
+[2026-05-13 18:42:31] Grupo 1 | origen [2001:720:1d10:fff0:0:1:0:2]:51198 | mensaje: client_id=client-2; group_id=1; seq=1; timestamp_ms=1778697751336; message=Hola grupo 1
+[2026-05-13 20:48:57] Grupo 1 | origen [2001:720:1d10:fff0:0:1:0:2]:46444 | mensaje: client_id=test-01_sin_limitacion-g1; group_id=1; seq=1; timestamp_ms=1778705337723; message=Mensaje prueba 01_sin_limitacion grupo 1
+[2026-05-13 20:49:19] Grupo 1 | origen [2001:720:1d10:fff0:0:1:0:2]:46448 | mensaje: client_id=test-02_ancho_banda_10mbit-g1; group_id=1; seq=1; timestamp_ms=1778705359119; message=Mensaje prueba 02_ancho_banda_10mbit grupo 1
+[2026-05-13 20:49:40] Grupo 1 | origen [2001:720:1d10:fff0:0:1:0:2]:34136 | mensaje: client_id=test-03_ancho_banda_1mbit-g1; group_id=1; seq=1; timestamp_ms=1778705380562; message=Mensaje prueba 03_ancho_banda_1mbit grupo 1
+
+[9] Histórico grupo 2:
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56360 | mensaje: client_id=send-6; group_id=2; seq=30; timestamp_ms=1778587263193; message=prueba D grupo 2
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56374 | mensaje: client_id=send-8; group_id=2; seq=30; timestamp_ms=1778587263197; message=prueba D grupo 2
+[2026-05-13 20:48:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:33204 | mensaje: client_id=test-01_sin_limitacion-g2; group_id=2; seq=1; timestamp_ms=1778705337757; message=Mensaje prueba 01_sin_limitacion grupo 2
+[2026-05-13 20:49:19] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50036 | mensaje: client_id=test-02_ancho_banda_10mbit-g2; group_id=2; seq=1; timestamp_ms=1778705359146; message=Mensaje prueba 02_ancho_banda_10mbit grupo 2
+[2026-05-13 20:49:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:46934 | mensaje: client_id=test-03_ancho_banda_1mbit-g2; group_id=2; seq=1; timestamp_ms=1778705380639; message=Mensaje prueba 03_ancho_banda_1mbit grupo 2
+
+[10] Fin de prueba 03_ancho_banda_1mbit

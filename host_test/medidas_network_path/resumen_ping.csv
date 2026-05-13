@@ -1,0 +1,4 @@
+fichero,muestras,rtt_min_ms,rtt_media_ms,rtt_max_ms,rtt_varianza,paquetes_transmitidos,paquetes_recibidos,perdida_paquetes_porcentaje
+ping_m1.txt,41,0.055,0.08578048780487804,0.372,0.003084975609756098,41,41,0.0
+ping_m2.txt,5,0.04,0.0652,0.073,0.00020119999999999996,5,5,0.0
+ping_m3.txt,4,0.047,0.066,0.076,0.00016733333333333333,4,4,0.0

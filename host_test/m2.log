@@ -1,0 +1,14 @@
+=============================================
+ Servidor M2 - Grupo 1 iniciado
+ Escuchando TCP IPv6 en puerto: 4001
+ Multicast IPv6: [ff15::1]:5001
+ Histórico: grupo_1.log
+=============================================
+
+[M2] Cliente conectado desde [2001:720:1d10:fff0:0:1:0:2]:37598
+[M2] Mensaje recibido por TCP:
+[2026-05-13 21:34:59] Grupo 1 | origen [2001:720:1d10:fff0:0:1:0:2]:37598 | mensaje: client_id=client-2; group_id=1; seq=1; timestamp_ms=1778708099604; message=hola
+[M2] Mensaje guardado en grupo_1.log
+[M2] Mensaje reenviado por multicast a [ff15::1]:5001
+[M2] Conexión cerrada
+

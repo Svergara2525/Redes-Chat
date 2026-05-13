@@ -1,0 +1,351 @@
+[2026-05-12 11:34:13] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60734 | mensaje: client_id=client-2; group_id=2; seq=1; message=Prueba guardado grupo 2
+[2026-05-12 11:41:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:32842 | mensaje: client_id=client-7; group_id=2; seq=1; timestamp_ms=1778586116634; message=Mensaje con latencia grupo 2
+[2026-05-12 11:47:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41548 | mensaje: client_id=client-7; group_id=2; seq=1; timestamp_ms=1778586454219; message=Mensaje con latencia grupo 2
+[2026-05-12 11:52:31] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47534 | mensaje: client_id=send-6; group_id=2; seq=1; timestamp_ms=1778586751704; message=carga grupo 2
+[2026-05-12 11:52:31] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47542 | mensaje: client_id=send-7; group_id=2; seq=1; timestamp_ms=1778586751724; message=carga grupo 2
+[2026-05-12 11:52:31] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47550 | mensaje: client_id=send-9; group_id=2; seq=1; timestamp_ms=1778586751730; message=carga grupo 2
+[2026-05-12 11:52:31] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47562 | mensaje: client_id=send-10; group_id=2; seq=1; timestamp_ms=1778586751743; message=carga grupo 2
+[2026-05-12 11:52:31] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47572 | mensaje: client_id=send-8; group_id=2; seq=1; timestamp_ms=1778586751752; message=carga grupo 2
+[2026-05-12 11:52:32] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47576 | mensaje: client_id=send-6; group_id=2; seq=2; timestamp_ms=1778586752716; message=carga grupo 2
+[2026-05-12 11:52:32] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47586 | mensaje: client_id=send-7; group_id=2; seq=2; timestamp_ms=1778586752728; message=carga grupo 2
+[2026-05-12 11:52:32] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47600 | mensaje: client_id=send-10; group_id=2; seq=2; timestamp_ms=1778586752745; message=carga grupo 2
+[2026-05-12 11:52:32] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47606 | mensaje: client_id=send-9; group_id=2; seq=2; timestamp_ms=1778586752744; message=carga grupo 2
+[2026-05-12 11:52:32] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47612 | mensaje: client_id=send-8; group_id=2; seq=2; timestamp_ms=1778586752759; message=carga grupo 2
+[2026-05-12 11:52:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47616 | mensaje: client_id=send-6; group_id=2; seq=3; timestamp_ms=1778586753724; message=carga grupo 2
+[2026-05-12 11:52:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47624 | mensaje: client_id=send-7; group_id=2; seq=3; timestamp_ms=1778586753739; message=carga grupo 2
+[2026-05-12 11:52:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47634 | mensaje: client_id=send-10; group_id=2; seq=3; timestamp_ms=1778586753756; message=carga grupo 2
+[2026-05-12 11:52:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47644 | mensaje: client_id=send-8; group_id=2; seq=3; timestamp_ms=1778586753763; message=carga grupo 2
+[2026-05-12 11:52:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47656 | mensaje: client_id=send-9; group_id=2; seq=3; timestamp_ms=1778586753770; message=carga grupo 2
+[2026-05-12 11:52:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47668 | mensaje: client_id=send-6; group_id=2; seq=4; timestamp_ms=1778586754731; message=carga grupo 2
+[2026-05-12 11:52:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47674 | mensaje: client_id=send-7; group_id=2; seq=4; timestamp_ms=1778586754751; message=carga grupo 2
+[2026-05-12 11:52:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47684 | mensaje: client_id=send-10; group_id=2; seq=4; timestamp_ms=1778586754764; message=carga grupo 2
+[2026-05-12 11:52:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47688 | mensaje: client_id=send-8; group_id=2; seq=4; timestamp_ms=1778586754775; message=carga grupo 2
+[2026-05-12 11:52:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47696 | mensaje: client_id=send-9; group_id=2; seq=4; timestamp_ms=1778586754779; message=carga grupo 2
+[2026-05-12 11:52:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47712 | mensaje: client_id=send-6; group_id=2; seq=5; timestamp_ms=1778586755742; message=carga grupo 2
+[2026-05-12 11:52:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47716 | mensaje: client_id=send-10; group_id=2; seq=5; timestamp_ms=1778586755766; message=carga grupo 2
+[2026-05-12 11:52:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47718 | mensaje: client_id=send-7; group_id=2; seq=5; timestamp_ms=1778586755774; message=carga grupo 2
+[2026-05-12 11:52:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47726 | mensaje: client_id=send-8; group_id=2; seq=5; timestamp_ms=1778586755779; message=carga grupo 2
+[2026-05-12 11:52:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47742 | mensaje: client_id=send-9; group_id=2; seq=5; timestamp_ms=1778586755784; message=carga grupo 2
+[2026-05-12 11:52:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47756 | mensaje: client_id=send-6; group_id=2; seq=6; timestamp_ms=1778586756749; message=carga grupo 2
+[2026-05-12 11:52:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47772 | mensaje: client_id=send-10; group_id=2; seq=6; timestamp_ms=1778586756775; message=carga grupo 2
+[2026-05-12 11:52:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47784 | mensaje: client_id=send-8; group_id=2; seq=6; timestamp_ms=1778586756786; message=carga grupo 2
+[2026-05-12 11:52:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47788 | mensaje: client_id=send-7; group_id=2; seq=6; timestamp_ms=1778586756796; message=carga grupo 2
+[2026-05-12 11:52:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:47800 | mensaje: client_id=send-9; group_id=2; seq=6; timestamp_ms=1778586756800; message=carga grupo 2
+[2026-05-12 11:52:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60508 | mensaje: client_id=send-6; group_id=2; seq=7; timestamp_ms=1778586757754; message=carga grupo 2
+[2026-05-12 11:52:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60522 | mensaje: client_id=send-10; group_id=2; seq=7; timestamp_ms=1778586757786; message=carga grupo 2
+[2026-05-12 11:52:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60530 | mensaje: client_id=send-8; group_id=2; seq=7; timestamp_ms=1778586757800; message=carga grupo 2
+[2026-05-12 11:52:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60538 | mensaje: client_id=send-9; group_id=2; seq=7; timestamp_ms=1778586757821; message=carga grupo 2
+[2026-05-12 11:52:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60542 | mensaje: client_id=send-7; group_id=2; seq=7; timestamp_ms=1778586757819; message=carga grupo 2
+[2026-05-12 11:52:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60552 | mensaje: client_id=send-6; group_id=2; seq=8; timestamp_ms=1778586758760; message=carga grupo 2
+[2026-05-12 11:52:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60560 | mensaje: client_id=send-10; group_id=2; seq=8; timestamp_ms=1778586758799; message=carga grupo 2
+[2026-05-12 11:52:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60564 | mensaje: client_id=send-8; group_id=2; seq=8; timestamp_ms=1778586758808; message=carga grupo 2
+[2026-05-12 11:52:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60574 | mensaje: client_id=send-9; group_id=2; seq=8; timestamp_ms=1778586758833; message=carga grupo 2
+[2026-05-12 11:52:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60576 | mensaje: client_id=send-7; group_id=2; seq=8; timestamp_ms=1778586758841; message=carga grupo 2
+[2026-05-12 11:52:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60580 | mensaje: client_id=send-6; group_id=2; seq=9; timestamp_ms=1778586759769; message=carga grupo 2
+[2026-05-12 11:52:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60594 | mensaje: client_id=send-10; group_id=2; seq=9; timestamp_ms=1778586759804; message=carga grupo 2
+[2026-05-12 11:52:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60608 | mensaje: client_id=send-8; group_id=2; seq=9; timestamp_ms=1778586759826; message=carga grupo 2
+[2026-05-12 11:52:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60618 | mensaje: client_id=send-9; group_id=2; seq=9; timestamp_ms=1778586759858; message=carga grupo 2
+[2026-05-12 11:52:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60632 | mensaje: client_id=send-7; group_id=2; seq=9; timestamp_ms=1778586759863; message=carga grupo 2
+[2026-05-12 11:52:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60642 | mensaje: client_id=send-6; group_id=2; seq=10; timestamp_ms=1778586760778; message=carga grupo 2
+[2026-05-12 11:52:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60652 | mensaje: client_id=send-10; group_id=2; seq=10; timestamp_ms=1778586760823; message=carga grupo 2
+[2026-05-12 11:52:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60664 | mensaje: client_id=send-8; group_id=2; seq=10; timestamp_ms=1778586760845; message=carga grupo 2
+[2026-05-12 11:52:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60672 | mensaje: client_id=send-7; group_id=2; seq=10; timestamp_ms=1778586760880; message=carga grupo 2
+[2026-05-12 11:52:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60678 | mensaje: client_id=send-9; group_id=2; seq=10; timestamp_ms=1778586760895; message=carga grupo 2
+[2026-05-12 11:52:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60686 | mensaje: client_id=send-6; group_id=2; seq=11; timestamp_ms=1778586761788; message=carga grupo 2
+[2026-05-12 11:52:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60702 | mensaje: client_id=send-10; group_id=2; seq=11; timestamp_ms=1778586761831; message=carga grupo 2
+[2026-05-12 11:52:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60714 | mensaje: client_id=send-8; group_id=2; seq=11; timestamp_ms=1778586761861; message=carga grupo 2
+[2026-05-12 11:52:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60728 | mensaje: client_id=send-7; group_id=2; seq=11; timestamp_ms=1778586761902; message=carga grupo 2
+[2026-05-12 11:52:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60744 | mensaje: client_id=send-9; group_id=2; seq=11; timestamp_ms=1778586761916; message=carga grupo 2
+[2026-05-12 11:52:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60746 | mensaje: client_id=send-6; group_id=2; seq=12; timestamp_ms=1778586762802; message=carga grupo 2
+[2026-05-12 11:52:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60762 | mensaje: client_id=send-10; group_id=2; seq=12; timestamp_ms=1778586762849; message=carga grupo 2
+[2026-05-12 11:52:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60774 | mensaje: client_id=send-8; group_id=2; seq=12; timestamp_ms=1778586762893; message=carga grupo 2
+[2026-05-12 11:52:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60786 | mensaje: client_id=send-9; group_id=2; seq=12; timestamp_ms=1778586762932; message=carga grupo 2
+[2026-05-12 11:52:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60794 | mensaje: client_id=send-7; group_id=2; seq=12; timestamp_ms=1778586762935; message=carga grupo 2
+[2026-05-12 11:52:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60800 | mensaje: client_id=send-6; group_id=2; seq=13; timestamp_ms=1778586763823; message=carga grupo 2
+[2026-05-12 11:52:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60808 | mensaje: client_id=send-10; group_id=2; seq=13; timestamp_ms=1778586763860; message=carga grupo 2
+[2026-05-12 11:52:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60814 | mensaje: client_id=send-8; group_id=2; seq=13; timestamp_ms=1778586763901; message=carga grupo 2
+[2026-05-12 11:52:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60820 | mensaje: client_id=send-9; group_id=2; seq=13; timestamp_ms=1778586763944; message=carga grupo 2
+[2026-05-12 11:52:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60824 | mensaje: client_id=send-7; group_id=2; seq=13; timestamp_ms=1778586763964; message=carga grupo 2
+[2026-05-12 11:52:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60840 | mensaje: client_id=send-6; group_id=2; seq=14; timestamp_ms=1778586764834; message=carga grupo 2
+[2026-05-12 11:52:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60850 | mensaje: client_id=send-10; group_id=2; seq=14; timestamp_ms=1778586764885; message=carga grupo 2
+[2026-05-12 11:52:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60860 | mensaje: client_id=send-8; group_id=2; seq=14; timestamp_ms=1778586764906; message=carga grupo 2
+[2026-05-12 11:52:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60872 | mensaje: client_id=send-9; group_id=2; seq=14; timestamp_ms=1778586764977; message=carga grupo 2
+[2026-05-12 11:52:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60876 | mensaje: client_id=send-7; group_id=2; seq=14; timestamp_ms=1778586764973; message=carga grupo 2
+[2026-05-12 11:52:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60882 | mensaje: client_id=send-6; group_id=2; seq=15; timestamp_ms=1778586765846; message=carga grupo 2
+[2026-05-12 11:52:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60894 | mensaje: client_id=send-10; group_id=2; seq=15; timestamp_ms=1778586765895; message=carga grupo 2
+[2026-05-12 11:52:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60902 | mensaje: client_id=send-8; group_id=2; seq=15; timestamp_ms=1778586765913; message=carga grupo 2
+[2026-05-12 11:52:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60908 | mensaje: client_id=send-9; group_id=2; seq=15; timestamp_ms=1778586766002; message=carga grupo 2
+[2026-05-12 11:52:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60922 | mensaje: client_id=send-7; group_id=2; seq=15; timestamp_ms=1778586766008; message=carga grupo 2
+[2026-05-12 11:52:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60936 | mensaje: client_id=send-6; group_id=2; seq=16; timestamp_ms=1778586766851; message=carga grupo 2
+[2026-05-12 11:52:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60946 | mensaje: client_id=send-10; group_id=2; seq=16; timestamp_ms=1778586766899; message=carga grupo 2
+[2026-05-12 11:52:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:60960 | mensaje: client_id=send-8; group_id=2; seq=16; timestamp_ms=1778586766928; message=carga grupo 2
+[2026-05-12 11:52:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:35990 | mensaje: client_id=send-9; group_id=2; seq=16; timestamp_ms=1778586767008; message=carga grupo 2
+[2026-05-12 11:52:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36004 | mensaje: client_id=send-7; group_id=2; seq=16; timestamp_ms=1778586767019; message=carga grupo 2
+[2026-05-12 11:52:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36010 | mensaje: client_id=send-6; group_id=2; seq=17; timestamp_ms=1778586767858; message=carga grupo 2
+[2026-05-12 11:52:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36024 | mensaje: client_id=send-10; group_id=2; seq=17; timestamp_ms=1778586767923; message=carga grupo 2
+[2026-05-12 11:52:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36040 | mensaje: client_id=send-8; group_id=2; seq=17; timestamp_ms=1778586767935; message=carga grupo 2
+[2026-05-12 11:52:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36048 | mensaje: client_id=send-9; group_id=2; seq=17; timestamp_ms=1778586768024; message=carga grupo 2
+[2026-05-12 11:52:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36050 | mensaje: client_id=send-7; group_id=2; seq=17; timestamp_ms=1778586768035; message=carga grupo 2
+[2026-05-12 11:52:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36064 | mensaje: client_id=send-6; group_id=2; seq=18; timestamp_ms=1778586768866; message=carga grupo 2
+[2026-05-12 11:52:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36076 | mensaje: client_id=send-8; group_id=2; seq=18; timestamp_ms=1778586768944; message=carga grupo 2
+[2026-05-12 11:52:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36090 | mensaje: client_id=send-10; group_id=2; seq=18; timestamp_ms=1778586768947; message=carga grupo 2
+[2026-05-12 11:52:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36092 | mensaje: client_id=send-9; group_id=2; seq=18; timestamp_ms=1778586769034; message=carga grupo 2
+[2026-05-12 11:52:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36104 | mensaje: client_id=send-7; group_id=2; seq=18; timestamp_ms=1778586769044; message=carga grupo 2
+[2026-05-12 11:52:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36116 | mensaje: client_id=send-6; group_id=2; seq=19; timestamp_ms=1778586769873; message=carga grupo 2
+[2026-05-12 11:52:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36132 | mensaje: client_id=send-10; group_id=2; seq=19; timestamp_ms=1778586769956; message=carga grupo 2
+[2026-05-12 11:52:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36146 | mensaje: client_id=send-8; group_id=2; seq=19; timestamp_ms=1778586769966; message=carga grupo 2
+[2026-05-12 11:52:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36158 | mensaje: client_id=send-7; group_id=2; seq=19; timestamp_ms=1778586770048; message=carga grupo 2
+[2026-05-12 11:52:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36168 | mensaje: client_id=send-9; group_id=2; seq=19; timestamp_ms=1778586770050; message=carga grupo 2
+[2026-05-12 11:52:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36172 | mensaje: client_id=send-6; group_id=2; seq=20; timestamp_ms=1778586770887; message=carga grupo 2
+[2026-05-12 11:52:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36178 | mensaje: client_id=send-8; group_id=2; seq=20; timestamp_ms=1778586770971; message=carga grupo 2
+[2026-05-12 11:52:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36188 | mensaje: client_id=send-10; group_id=2; seq=20; timestamp_ms=1778586770979; message=carga grupo 2
+[2026-05-12 11:52:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36194 | mensaje: client_id=send-9; group_id=2; seq=20; timestamp_ms=1778586771076; message=carga grupo 2
+[2026-05-12 11:52:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36196 | mensaje: client_id=send-7; group_id=2; seq=20; timestamp_ms=1778586771086; message=carga grupo 2
+[2026-05-12 11:52:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36208 | mensaje: client_id=send-6; group_id=2; seq=21; timestamp_ms=1778586771894; message=carga grupo 2
+[2026-05-12 11:52:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36212 | mensaje: client_id=send-8; group_id=2; seq=21; timestamp_ms=1778586772005; message=carga grupo 2
+[2026-05-12 11:52:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36220 | mensaje: client_id=send-10; group_id=2; seq=21; timestamp_ms=1778586772030; message=carga grupo 2
+[2026-05-12 11:52:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36226 | mensaje: client_id=send-9; group_id=2; seq=21; timestamp_ms=1778586772097; message=carga grupo 2
+[2026-05-12 11:52:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36236 | mensaje: client_id=send-7; group_id=2; seq=21; timestamp_ms=1778586772107; message=carga grupo 2
+[2026-05-12 11:52:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36242 | mensaje: client_id=send-6; group_id=2; seq=22; timestamp_ms=1778586772908; message=carga grupo 2
+[2026-05-12 11:52:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36258 | mensaje: client_id=send-8; group_id=2; seq=22; timestamp_ms=1778586773038; message=carga grupo 2
+[2026-05-12 11:52:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36260 | mensaje: client_id=send-10; group_id=2; seq=22; timestamp_ms=1778586773042; message=carga grupo 2
+[2026-05-12 11:52:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36262 | mensaje: client_id=send-9; group_id=2; seq=22; timestamp_ms=1778586773111; message=carga grupo 2
+[2026-05-12 11:52:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36266 | mensaje: client_id=send-7; group_id=2; seq=22; timestamp_ms=1778586773123; message=carga grupo 2
+[2026-05-12 11:52:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36272 | mensaje: client_id=send-6; group_id=2; seq=23; timestamp_ms=1778586773913; message=carga grupo 2
+[2026-05-12 11:52:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36284 | mensaje: client_id=send-10; group_id=2; seq=23; timestamp_ms=1778586774046; message=carga grupo 2
+[2026-05-12 11:52:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36296 | mensaje: client_id=send-8; group_id=2; seq=23; timestamp_ms=1778586774049; message=carga grupo 2
+[2026-05-12 11:52:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36302 | mensaje: client_id=send-7; group_id=2; seq=23; timestamp_ms=1778586774151; message=carga grupo 2
+[2026-05-12 11:52:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36304 | mensaje: client_id=send-9; group_id=2; seq=23; timestamp_ms=1778586774160; message=carga grupo 2
+[2026-05-12 11:52:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36318 | mensaje: client_id=send-6; group_id=2; seq=24; timestamp_ms=1778586774938; message=carga grupo 2
+[2026-05-12 11:52:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36332 | mensaje: client_id=send-8; group_id=2; seq=24; timestamp_ms=1778586775059; message=carga grupo 2
+[2026-05-12 11:52:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36346 | mensaje: client_id=send-10; group_id=2; seq=24; timestamp_ms=1778586775070; message=carga grupo 2
+[2026-05-12 11:52:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36350 | mensaje: client_id=send-7; group_id=2; seq=24; timestamp_ms=1778586775156; message=carga grupo 2
+[2026-05-12 11:52:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36358 | mensaje: client_id=send-9; group_id=2; seq=24; timestamp_ms=1778586775173; message=carga grupo 2
+[2026-05-12 11:52:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36360 | mensaje: client_id=send-6; group_id=2; seq=25; timestamp_ms=1778586775943; message=carga grupo 2
+[2026-05-12 11:52:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36374 | mensaje: client_id=send-8; group_id=2; seq=25; timestamp_ms=1778586776085; message=carga grupo 2
+[2026-05-12 11:52:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36378 | mensaje: client_id=send-10; group_id=2; seq=25; timestamp_ms=1778586776094; message=carga grupo 2
+[2026-05-12 11:52:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36388 | mensaje: client_id=send-7; group_id=2; seq=25; timestamp_ms=1778586776166; message=carga grupo 2
+[2026-05-12 11:52:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36396 | mensaje: client_id=send-9; group_id=2; seq=25; timestamp_ms=1778586776178; message=carga grupo 2
+[2026-05-12 11:52:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50680 | mensaje: client_id=send-6; group_id=2; seq=26; timestamp_ms=1778586776956; message=carga grupo 2
+[2026-05-12 11:52:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50688 | mensaje: client_id=send-8; group_id=2; seq=26; timestamp_ms=1778586777093; message=carga grupo 2
+[2026-05-12 11:52:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50704 | mensaje: client_id=send-10; group_id=2; seq=26; timestamp_ms=1778586777110; message=carga grupo 2
+[2026-05-12 11:52:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50710 | mensaje: client_id=send-7; group_id=2; seq=26; timestamp_ms=1778586777170; message=carga grupo 2
+[2026-05-12 11:52:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50712 | mensaje: client_id=send-9; group_id=2; seq=26; timestamp_ms=1778586777187; message=carga grupo 2
+[2026-05-12 11:52:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50728 | mensaje: client_id=send-6; group_id=2; seq=27; timestamp_ms=1778586777965; message=carga grupo 2
+[2026-05-12 11:52:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50740 | mensaje: client_id=send-10; group_id=2; seq=27; timestamp_ms=1778586778121; message=carga grupo 2
+[2026-05-12 11:52:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50750 | mensaje: client_id=send-8; group_id=2; seq=27; timestamp_ms=1778586778131; message=carga grupo 2
+[2026-05-12 11:52:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50754 | mensaje: client_id=send-7; group_id=2; seq=27; timestamp_ms=1778586778183; message=carga grupo 2
+[2026-05-12 11:52:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50770 | mensaje: client_id=send-9; group_id=2; seq=27; timestamp_ms=1778586778205; message=carga grupo 2
+[2026-05-12 11:52:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50774 | mensaje: client_id=send-6; group_id=2; seq=28; timestamp_ms=1778586778971; message=carga grupo 2
+[2026-05-12 11:52:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50780 | mensaje: client_id=send-10; group_id=2; seq=28; timestamp_ms=1778586779125; message=carga grupo 2
+[2026-05-12 11:52:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50796 | mensaje: client_id=send-8; group_id=2; seq=28; timestamp_ms=1778586779142; message=carga grupo 2
+[2026-05-12 11:52:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50798 | mensaje: client_id=send-7; group_id=2; seq=28; timestamp_ms=1778586779200; message=carga grupo 2
+[2026-05-12 11:52:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50810 | mensaje: client_id=send-9; group_id=2; seq=28; timestamp_ms=1778586779215; message=carga grupo 2
+[2026-05-12 11:52:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50818 | mensaje: client_id=send-6; group_id=2; seq=29; timestamp_ms=1778586779981; message=carga grupo 2
+[2026-05-12 11:53:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50830 | mensaje: client_id=send-10; group_id=2; seq=29; timestamp_ms=1778586780145; message=carga grupo 2
+[2026-05-12 11:53:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50844 | mensaje: client_id=send-8; group_id=2; seq=29; timestamp_ms=1778586780171; message=carga grupo 2
+[2026-05-12 11:53:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50860 | mensaje: client_id=send-7; group_id=2; seq=29; timestamp_ms=1778586780210; message=carga grupo 2
+[2026-05-12 11:53:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50868 | mensaje: client_id=send-9; group_id=2; seq=29; timestamp_ms=1778586780229; message=carga grupo 2
+[2026-05-12 11:53:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50872 | mensaje: client_id=send-6; group_id=2; seq=30; timestamp_ms=1778586780990; message=carga grupo 2
+[2026-05-12 11:53:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50882 | mensaje: client_id=send-10; group_id=2; seq=30; timestamp_ms=1778586781149; message=carga grupo 2
+[2026-05-12 11:53:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50896 | mensaje: client_id=send-8; group_id=2; seq=30; timestamp_ms=1778586781184; message=carga grupo 2
+[2026-05-12 11:53:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50910 | mensaje: client_id=send-7; group_id=2; seq=30; timestamp_ms=1778586781227; message=carga grupo 2
+[2026-05-12 11:53:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50920 | mensaje: client_id=send-9; group_id=2; seq=30; timestamp_ms=1778586781235; message=carga grupo 2
+[2026-05-12 11:53:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50924 | mensaje: client_id=send-6; group_id=2; seq=31; timestamp_ms=1778586782000; message=carga grupo 2
+[2026-05-12 11:53:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50926 | mensaje: client_id=send-10; group_id=2; seq=31; timestamp_ms=1778586782155; message=carga grupo 2
+[2026-05-12 11:53:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50930 | mensaje: client_id=send-8; group_id=2; seq=31; timestamp_ms=1778586782199; message=carga grupo 2
+[2026-05-12 11:53:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50934 | mensaje: client_id=send-7; group_id=2; seq=31; timestamp_ms=1778586782246; message=carga grupo 2
+[2026-05-12 11:53:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50944 | mensaje: client_id=send-9; group_id=2; seq=31; timestamp_ms=1778586782249; message=carga grupo 2
+[2026-05-12 11:53:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50952 | mensaje: client_id=send-6; group_id=2; seq=32; timestamp_ms=1778586783012; message=carga grupo 2
+[2026-05-12 11:53:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50960 | mensaje: client_id=send-10; group_id=2; seq=32; timestamp_ms=1778586783173; message=carga grupo 2
+[2026-05-12 11:53:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50966 | mensaje: client_id=send-8; group_id=2; seq=32; timestamp_ms=1778586783205; message=carga grupo 2
+[2026-05-12 11:53:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50982 | mensaje: client_id=send-7; group_id=2; seq=32; timestamp_ms=1778586783258; message=carga grupo 2
+[2026-05-12 11:53:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50986 | mensaje: client_id=send-9; group_id=2; seq=32; timestamp_ms=1778586783261; message=carga grupo 2
+[2026-05-12 11:53:04] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51000 | mensaje: client_id=send-6; group_id=2; seq=33; timestamp_ms=1778586784047; message=carga grupo 2
+[2026-05-12 11:53:04] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51014 | mensaje: client_id=send-10; group_id=2; seq=33; timestamp_ms=1778586784180; message=carga grupo 2
+[2026-05-12 11:53:04] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51024 | mensaje: client_id=send-8; group_id=2; seq=33; timestamp_ms=1778586784214; message=carga grupo 2
+[2026-05-12 11:53:04] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51030 | mensaje: client_id=send-7; group_id=2; seq=33; timestamp_ms=1778586784285; message=carga grupo 2
+[2026-05-12 11:53:04] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51032 | mensaje: client_id=send-9; group_id=2; seq=33; timestamp_ms=1778586784290; message=carga grupo 2
+[2026-05-12 11:53:05] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51038 | mensaje: client_id=send-6; group_id=2; seq=34; timestamp_ms=1778586785054; message=carga grupo 2
+[2026-05-12 11:53:05] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51052 | mensaje: client_id=send-10; group_id=2; seq=34; timestamp_ms=1778586785188; message=carga grupo 2
+[2026-05-12 11:53:05] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51066 | mensaje: client_id=send-8; group_id=2; seq=34; timestamp_ms=1778586785219; message=carga grupo 2
+[2026-05-12 11:53:05] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51080 | mensaje: client_id=send-7; group_id=2; seq=34; timestamp_ms=1778586785293; message=carga grupo 2
+[2026-05-12 11:53:05] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51084 | mensaje: client_id=send-9; group_id=2; seq=34; timestamp_ms=1778586785301; message=carga grupo 2
+[2026-05-12 11:53:06] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51088 | mensaje: client_id=send-6; group_id=2; seq=35; timestamp_ms=1778586786061; message=carga grupo 2
+[2026-05-12 11:53:06] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51098 | mensaje: client_id=send-10; group_id=2; seq=35; timestamp_ms=1778586786207; message=carga grupo 2
+[2026-05-12 11:53:06] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51102 | mensaje: client_id=send-8; group_id=2; seq=35; timestamp_ms=1778586786240; message=carga grupo 2
+[2026-05-12 11:53:06] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51118 | mensaje: client_id=send-9; group_id=2; seq=35; timestamp_ms=1778586786311; message=carga grupo 2
+[2026-05-12 11:53:06] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:51108 | mensaje: client_id=send-7; group_id=2; seq=35; timestamp_ms=1778586786303; message=carga grupo 2
+[2026-05-12 11:53:07] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45314 | mensaje: client_id=send-6; group_id=2; seq=36; timestamp_ms=1778586787084; message=carga grupo 2
+[2026-05-12 11:53:07] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45320 | mensaje: client_id=send-10; group_id=2; seq=36; timestamp_ms=1778586787218; message=carga grupo 2
+[2026-05-12 11:53:07] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45334 | mensaje: client_id=send-8; group_id=2; seq=36; timestamp_ms=1778586787249; message=carga grupo 2
+[2026-05-12 11:53:07] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45342 | mensaje: client_id=send-7; group_id=2; seq=36; timestamp_ms=1778586787341; message=carga grupo 2
+[2026-05-12 11:53:07] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45352 | mensaje: client_id=send-9; group_id=2; seq=36; timestamp_ms=1778586787348; message=carga grupo 2
+[2026-05-12 11:53:08] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45364 | mensaje: client_id=send-6; group_id=2; seq=37; timestamp_ms=1778586788103; message=carga grupo 2
+[2026-05-12 11:53:08] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45378 | mensaje: client_id=send-10; group_id=2; seq=37; timestamp_ms=1778586788231; message=carga grupo 2
+[2026-05-12 11:53:08] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45386 | mensaje: client_id=send-8; group_id=2; seq=37; timestamp_ms=1778586788259; message=carga grupo 2
+[2026-05-12 11:53:08] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45388 | mensaje: client_id=send-7; group_id=2; seq=37; timestamp_ms=1778586788352; message=carga grupo 2
+[2026-05-12 11:53:08] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45390 | mensaje: client_id=send-9; group_id=2; seq=37; timestamp_ms=1778586788357; message=carga grupo 2
+[2026-05-12 11:53:09] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45402 | mensaje: client_id=send-6; group_id=2; seq=38; timestamp_ms=1778586789111; message=carga grupo 2
+[2026-05-12 11:53:09] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45408 | mensaje: client_id=send-10; group_id=2; seq=38; timestamp_ms=1778586789241; message=carga grupo 2
+[2026-05-12 11:53:09] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45424 | mensaje: client_id=send-8; group_id=2; seq=38; timestamp_ms=1778586789282; message=carga grupo 2
+[2026-05-12 11:53:09] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45440 | mensaje: client_id=send-7; group_id=2; seq=38; timestamp_ms=1778586789361; message=carga grupo 2
+[2026-05-12 11:53:09] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:45450 | mensaje: client_id=send-9; group_id=2; seq=38; timestamp_ms=1778586789360; message=carga grupo 2
+[2026-05-12 12:00:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38364 | mensaje: client_id=send-7; group_id=2; seq=1; timestamp_ms=1778587233718; message=prueba D grupo 2
+[2026-05-12 12:00:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38368 | mensaje: client_id=send-6; group_id=2; seq=1; timestamp_ms=1778587233747; message=prueba D grupo 2
+[2026-05-12 12:00:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38384 | mensaje: client_id=send-8; group_id=2; seq=1; timestamp_ms=1778587233748; message=prueba D grupo 2
+[2026-05-12 12:00:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38396 | mensaje: client_id=send-10; group_id=2; seq=1; timestamp_ms=1778587233748; message=prueba D grupo 2
+[2026-05-12 12:00:33] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38408 | mensaje: client_id=send-9; group_id=2; seq=1; timestamp_ms=1778587233748; message=prueba D grupo 2
+[2026-05-12 12:00:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38410 | mensaje: client_id=send-7; group_id=2; seq=2; timestamp_ms=1778587234733; message=prueba D grupo 2
+[2026-05-12 12:00:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38420 | mensaje: client_id=send-6; group_id=2; seq=2; timestamp_ms=1778587234755; message=prueba D grupo 2
+[2026-05-12 12:00:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38426 | mensaje: client_id=send-8; group_id=2; seq=2; timestamp_ms=1778587234763; message=prueba D grupo 2
+[2026-05-12 12:00:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38434 | mensaje: client_id=send-10; group_id=2; seq=2; timestamp_ms=1778587234773; message=prueba D grupo 2
+[2026-05-12 12:00:34] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38444 | mensaje: client_id=send-9; group_id=2; seq=2; timestamp_ms=1778587234775; message=prueba D grupo 2
+[2026-05-12 12:00:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38450 | mensaje: client_id=send-7; group_id=2; seq=3; timestamp_ms=1778587235734; message=prueba D grupo 2
+[2026-05-12 12:00:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38454 | mensaje: client_id=send-6; group_id=2; seq=3; timestamp_ms=1778587235766; message=prueba D grupo 2
+[2026-05-12 12:00:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38464 | mensaje: client_id=send-8; group_id=2; seq=3; timestamp_ms=1778587235774; message=prueba D grupo 2
+[2026-05-12 12:00:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38470 | mensaje: client_id=send-9; group_id=2; seq=3; timestamp_ms=1778587235785; message=prueba D grupo 2
+[2026-05-12 12:00:35] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38476 | mensaje: client_id=send-10; group_id=2; seq=3; timestamp_ms=1778587235790; message=prueba D grupo 2
+[2026-05-12 12:00:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38480 | mensaje: client_id=send-7; group_id=2; seq=4; timestamp_ms=1778587236741; message=prueba D grupo 2
+[2026-05-12 12:00:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38488 | mensaje: client_id=send-6; group_id=2; seq=4; timestamp_ms=1778587236775; message=prueba D grupo 2
+[2026-05-12 12:00:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38498 | mensaje: client_id=send-8; group_id=2; seq=4; timestamp_ms=1778587236778; message=prueba D grupo 2
+[2026-05-12 12:00:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38506 | mensaje: client_id=send-9; group_id=2; seq=4; timestamp_ms=1778587236805; message=prueba D grupo 2
+[2026-05-12 12:00:36] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:38514 | mensaje: client_id=send-10; group_id=2; seq=4; timestamp_ms=1778587236812; message=prueba D grupo 2
+[2026-05-12 12:00:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40672 | mensaje: client_id=send-7; group_id=2; seq=5; timestamp_ms=1778587237768; message=prueba D grupo 2
+[2026-05-12 12:00:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40686 | mensaje: client_id=send-8; group_id=2; seq=5; timestamp_ms=1778587237785; message=prueba D grupo 2
+[2026-05-12 12:00:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40690 | mensaje: client_id=send-6; group_id=2; seq=5; timestamp_ms=1778587237787; message=prueba D grupo 2
+[2026-05-12 12:00:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40698 | mensaje: client_id=send-9; group_id=2; seq=5; timestamp_ms=1778587237811; message=prueba D grupo 2
+[2026-05-12 12:00:37] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40704 | mensaje: client_id=send-10; group_id=2; seq=5; timestamp_ms=1778587237823; message=prueba D grupo 2
+[2026-05-12 12:00:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40710 | mensaje: client_id=send-7; group_id=2; seq=6; timestamp_ms=1778587238783; message=prueba D grupo 2
+[2026-05-12 12:00:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40722 | mensaje: client_id=send-6; group_id=2; seq=6; timestamp_ms=1778587238796; message=prueba D grupo 2
+[2026-05-12 12:00:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40728 | mensaje: client_id=send-8; group_id=2; seq=6; timestamp_ms=1778587238801; message=prueba D grupo 2
+[2026-05-12 12:00:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40730 | mensaje: client_id=send-9; group_id=2; seq=6; timestamp_ms=1778587238823; message=prueba D grupo 2
+[2026-05-12 12:00:38] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40744 | mensaje: client_id=send-10; group_id=2; seq=6; timestamp_ms=1778587238833; message=prueba D grupo 2
+[2026-05-12 12:00:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40750 | mensaje: client_id=send-7; group_id=2; seq=7; timestamp_ms=1778587239796; message=prueba D grupo 2
+[2026-05-12 12:00:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40762 | mensaje: client_id=send-8; group_id=2; seq=7; timestamp_ms=1778587239817; message=prueba D grupo 2
+[2026-05-12 12:00:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40770 | mensaje: client_id=send-6; group_id=2; seq=7; timestamp_ms=1778587239820; message=prueba D grupo 2
+[2026-05-12 12:00:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40778 | mensaje: client_id=send-9; group_id=2; seq=7; timestamp_ms=1778587239834; message=prueba D grupo 2
+[2026-05-12 12:00:39] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40780 | mensaje: client_id=send-10; group_id=2; seq=7; timestamp_ms=1778587239838; message=prueba D grupo 2
+[2026-05-12 12:00:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40790 | mensaje: client_id=send-7; group_id=2; seq=8; timestamp_ms=1778587240810; message=prueba D grupo 2
+[2026-05-12 12:00:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40800 | mensaje: client_id=send-8; group_id=2; seq=8; timestamp_ms=1778587240833; message=prueba D grupo 2
+[2026-05-12 12:00:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40812 | mensaje: client_id=send-9; group_id=2; seq=8; timestamp_ms=1778587240848; message=prueba D grupo 2
+[2026-05-12 12:00:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40824 | mensaje: client_id=send-6; group_id=2; seq=8; timestamp_ms=1778587240855; message=prueba D grupo 2
+[2026-05-12 12:00:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40832 | mensaje: client_id=send-10; group_id=2; seq=8; timestamp_ms=1778587240856; message=prueba D grupo 2
+[2026-05-12 12:00:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40834 | mensaje: client_id=send-7; group_id=2; seq=9; timestamp_ms=1778587241815; message=prueba D grupo 2
+[2026-05-12 12:00:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40838 | mensaje: client_id=send-8; group_id=2; seq=9; timestamp_ms=1778587241843; message=prueba D grupo 2
+[2026-05-12 12:00:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40846 | mensaje: client_id=send-9; group_id=2; seq=9; timestamp_ms=1778587241855; message=prueba D grupo 2
+[2026-05-12 12:00:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40850 | mensaje: client_id=send-6; group_id=2; seq=9; timestamp_ms=1778587241867; message=prueba D grupo 2
+[2026-05-12 12:00:41] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40862 | mensaje: client_id=send-10; group_id=2; seq=9; timestamp_ms=1778587241865; message=prueba D grupo 2
+[2026-05-12 12:00:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40864 | mensaje: client_id=send-7; group_id=2; seq=10; timestamp_ms=1778587242824; message=prueba D grupo 2
+[2026-05-12 12:00:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40880 | mensaje: client_id=send-8; group_id=2; seq=10; timestamp_ms=1778587242868; message=prueba D grupo 2
+[2026-05-12 12:00:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40894 | mensaje: client_id=send-9; group_id=2; seq=10; timestamp_ms=1778587242868; message=prueba D grupo 2
+[2026-05-12 12:00:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40904 | mensaje: client_id=send-6; group_id=2; seq=10; timestamp_ms=1778587242890; message=prueba D grupo 2
+[2026-05-12 12:00:42] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40918 | mensaje: client_id=send-10; group_id=2; seq=10; timestamp_ms=1778587242886; message=prueba D grupo 2
+[2026-05-12 12:00:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40930 | mensaje: client_id=send-7; group_id=2; seq=11; timestamp_ms=1778587243863; message=prueba D grupo 2
+[2026-05-12 12:00:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40936 | mensaje: client_id=send-9; group_id=2; seq=11; timestamp_ms=1778587243881; message=prueba D grupo 2
+[2026-05-12 12:00:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40950 | mensaje: client_id=send-8; group_id=2; seq=11; timestamp_ms=1778587243885; message=prueba D grupo 2
+[2026-05-12 12:00:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40952 | mensaje: client_id=send-6; group_id=2; seq=11; timestamp_ms=1778587243905; message=prueba D grupo 2
+[2026-05-12 12:00:43] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40958 | mensaje: client_id=send-10; group_id=2; seq=11; timestamp_ms=1778587243911; message=prueba D grupo 2
+[2026-05-12 12:00:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40960 | mensaje: client_id=send-7; group_id=2; seq=12; timestamp_ms=1778587244875; message=prueba D grupo 2
+[2026-05-12 12:00:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40974 | mensaje: client_id=send-9; group_id=2; seq=12; timestamp_ms=1778587244894; message=prueba D grupo 2
+[2026-05-12 12:00:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40984 | mensaje: client_id=send-8; group_id=2; seq=12; timestamp_ms=1778587244899; message=prueba D grupo 2
+[2026-05-12 12:00:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:40990 | mensaje: client_id=send-10; group_id=2; seq=12; timestamp_ms=1778587244915; message=prueba D grupo 2
+[2026-05-12 12:00:44] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41002 | mensaje: client_id=send-6; group_id=2; seq=12; timestamp_ms=1778587244915; message=prueba D grupo 2
+[2026-05-12 12:00:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41008 | mensaje: client_id=send-7; group_id=2; seq=13; timestamp_ms=1778587245888; message=prueba D grupo 2
+[2026-05-12 12:00:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41010 | mensaje: client_id=send-9; group_id=2; seq=13; timestamp_ms=1778587245903; message=prueba D grupo 2
+[2026-05-12 12:00:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41018 | mensaje: client_id=send-8; group_id=2; seq=13; timestamp_ms=1778587245904; message=prueba D grupo 2
+[2026-05-12 12:00:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41022 | mensaje: client_id=send-6; group_id=2; seq=13; timestamp_ms=1778587245927; message=prueba D grupo 2
+[2026-05-12 12:00:45] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41024 | mensaje: client_id=send-10; group_id=2; seq=13; timestamp_ms=1778587245930; message=prueba D grupo 2
+[2026-05-12 12:00:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41030 | mensaje: client_id=send-7; group_id=2; seq=14; timestamp_ms=1778587246893; message=prueba D grupo 2
+[2026-05-12 12:00:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41046 | mensaje: client_id=send-9; group_id=2; seq=14; timestamp_ms=1778587246910; message=prueba D grupo 2
+[2026-05-12 12:00:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41048 | mensaje: client_id=send-8; group_id=2; seq=14; timestamp_ms=1778587246936; message=prueba D grupo 2
+[2026-05-12 12:00:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:41062 | mensaje: client_id=send-6; group_id=2; seq=14; timestamp_ms=1778587246946; message=prueba D grupo 2
+[2026-05-12 12:00:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43470 | mensaje: client_id=send-10; group_id=2; seq=14; timestamp_ms=1778587246941; message=prueba D grupo 2
+[2026-05-12 12:00:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43472 | mensaje: client_id=send-7; group_id=2; seq=15; timestamp_ms=1778587247904; message=prueba D grupo 2
+[2026-05-12 12:00:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43476 | mensaje: client_id=send-9; group_id=2; seq=15; timestamp_ms=1778587247917; message=prueba D grupo 2
+[2026-05-12 12:00:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43490 | mensaje: client_id=send-6; group_id=2; seq=15; timestamp_ms=1778587247955; message=prueba D grupo 2
+[2026-05-12 12:00:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43498 | mensaje: client_id=send-8; group_id=2; seq=15; timestamp_ms=1778587247948; message=prueba D grupo 2
+[2026-05-12 12:00:47] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43506 | mensaje: client_id=send-10; group_id=2; seq=15; timestamp_ms=1778587247963; message=prueba D grupo 2
+[2026-05-12 12:00:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43518 | mensaje: client_id=send-7; group_id=2; seq=16; timestamp_ms=1778587248914; message=prueba D grupo 2
+[2026-05-12 12:00:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43526 | mensaje: client_id=send-9; group_id=2; seq=16; timestamp_ms=1778587248943; message=prueba D grupo 2
+[2026-05-12 12:00:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43542 | mensaje: client_id=send-8; group_id=2; seq=16; timestamp_ms=1778587248970; message=prueba D grupo 2
+[2026-05-12 12:00:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43554 | mensaje: client_id=send-10; group_id=2; seq=16; timestamp_ms=1778587248972; message=prueba D grupo 2
+[2026-05-12 12:00:48] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43566 | mensaje: client_id=send-6; group_id=2; seq=16; timestamp_ms=1778587248972; message=prueba D grupo 2
+[2026-05-12 12:00:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43574 | mensaje: client_id=send-7; group_id=2; seq=17; timestamp_ms=1778587249925; message=prueba D grupo 2
+[2026-05-12 12:00:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43582 | mensaje: client_id=send-8; group_id=2; seq=17; timestamp_ms=1778587249975; message=prueba D grupo 2
+[2026-05-12 12:00:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43598 | mensaje: client_id=send-10; group_id=2; seq=17; timestamp_ms=1778587249989; message=prueba D grupo 2
+[2026-05-12 12:00:49] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43602 | mensaje: client_id=send-6; group_id=2; seq=17; timestamp_ms=1778587249996; message=prueba D grupo 2
+[2026-05-12 12:00:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43606 | mensaje: client_id=send-9; group_id=2; seq=17; timestamp_ms=1778587249998; message=prueba D grupo 2
+[2026-05-12 12:00:50] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43614 | mensaje: client_id=send-7; group_id=2; seq=18; timestamp_ms=1778587250933; message=prueba D grupo 2
+[2026-05-12 12:00:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43626 | mensaje: client_id=send-8; group_id=2; seq=18; timestamp_ms=1778587251003; message=prueba D grupo 2
+[2026-05-12 12:00:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43630 | mensaje: client_id=send-6; group_id=2; seq=18; timestamp_ms=1778587251005; message=prueba D grupo 2
+[2026-05-12 12:00:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43640 | mensaje: client_id=send-10; group_id=2; seq=18; timestamp_ms=1778587251008; message=prueba D grupo 2
+[2026-05-12 12:00:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43642 | mensaje: client_id=send-9; group_id=2; seq=18; timestamp_ms=1778587251017; message=prueba D grupo 2
+[2026-05-12 12:00:51] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43654 | mensaje: client_id=send-7; group_id=2; seq=19; timestamp_ms=1778587251945; message=prueba D grupo 2
+[2026-05-12 12:00:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43662 | mensaje: client_id=send-6; group_id=2; seq=19; timestamp_ms=1778587252014; message=prueba D grupo 2
+[2026-05-12 12:00:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43668 | mensaje: client_id=send-10; group_id=2; seq=19; timestamp_ms=1778587252015; message=prueba D grupo 2
+[2026-05-12 12:00:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43670 | mensaje: client_id=send-8; group_id=2; seq=19; timestamp_ms=1778587252018; message=prueba D grupo 2
+[2026-05-12 12:00:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43674 | mensaje: client_id=send-9; group_id=2; seq=19; timestamp_ms=1778587252024; message=prueba D grupo 2
+[2026-05-12 12:00:52] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43686 | mensaje: client_id=send-7; group_id=2; seq=20; timestamp_ms=1778587252949; message=prueba D grupo 2
+[2026-05-12 12:00:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43688 | mensaje: client_id=send-8; group_id=2; seq=20; timestamp_ms=1778587253031; message=prueba D grupo 2
+[2026-05-12 12:00:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43692 | mensaje: client_id=send-10; group_id=2; seq=20; timestamp_ms=1778587253039; message=prueba D grupo 2
+[2026-05-12 12:00:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43702 | mensaje: client_id=send-6; group_id=2; seq=20; timestamp_ms=1778587253041; message=prueba D grupo 2
+[2026-05-12 12:00:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43704 | mensaje: client_id=send-9; group_id=2; seq=20; timestamp_ms=1778587253030; message=prueba D grupo 2
+[2026-05-12 12:00:53] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43714 | mensaje: client_id=send-7; group_id=2; seq=21; timestamp_ms=1778587253968; message=prueba D grupo 2
+[2026-05-12 12:00:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43728 | mensaje: client_id=send-8; group_id=2; seq=21; timestamp_ms=1778587254036; message=prueba D grupo 2
+[2026-05-12 12:00:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43738 | mensaje: client_id=send-10; group_id=2; seq=21; timestamp_ms=1778587254049; message=prueba D grupo 2
+[2026-05-12 12:00:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43748 | mensaje: client_id=send-9; group_id=2; seq=21; timestamp_ms=1778587254053; message=prueba D grupo 2
+[2026-05-12 12:00:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43750 | mensaje: client_id=send-6; group_id=2; seq=21; timestamp_ms=1778587254053; message=prueba D grupo 2
+[2026-05-12 12:00:54] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43758 | mensaje: client_id=send-7; group_id=2; seq=22; timestamp_ms=1778587254986; message=prueba D grupo 2
+[2026-05-12 12:00:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43774 | mensaje: client_id=send-8; group_id=2; seq=22; timestamp_ms=1778587255050; message=prueba D grupo 2
+[2026-05-12 12:00:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43788 | mensaje: client_id=send-10; group_id=2; seq=22; timestamp_ms=1778587255055; message=prueba D grupo 2
+[2026-05-12 12:00:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43790 | mensaje: client_id=send-6; group_id=2; seq=22; timestamp_ms=1778587255061; message=prueba D grupo 2
+[2026-05-12 12:00:55] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43798 | mensaje: client_id=send-9; group_id=2; seq=22; timestamp_ms=1778587255065; message=prueba D grupo 2
+[2026-05-12 12:00:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43814 | mensaje: client_id=send-7; group_id=2; seq=23; timestamp_ms=1778587256001; message=prueba D grupo 2
+[2026-05-12 12:00:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43828 | mensaje: client_id=send-10; group_id=2; seq=23; timestamp_ms=1778587256070; message=prueba D grupo 2
+[2026-05-12 12:00:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43844 | mensaje: client_id=send-6; group_id=2; seq=23; timestamp_ms=1778587256074; message=prueba D grupo 2
+[2026-05-12 12:00:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43850 | mensaje: client_id=send-8; group_id=2; seq=23; timestamp_ms=1778587256078; message=prueba D grupo 2
+[2026-05-12 12:00:56] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:43858 | mensaje: client_id=send-9; group_id=2; seq=23; timestamp_ms=1778587256085; message=prueba D grupo 2
+[2026-05-12 12:00:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56118 | mensaje: client_id=send-7; group_id=2; seq=24; timestamp_ms=1778587257013; message=prueba D grupo 2
+[2026-05-12 12:00:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56132 | mensaje: client_id=send-10; group_id=2; seq=24; timestamp_ms=1778587257083; message=prueba D grupo 2
+[2026-05-12 12:00:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56134 | mensaje: client_id=send-8; group_id=2; seq=24; timestamp_ms=1778587257090; message=prueba D grupo 2
+[2026-05-12 12:00:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56148 | mensaje: client_id=send-6; group_id=2; seq=24; timestamp_ms=1778587257093; message=prueba D grupo 2
+[2026-05-12 12:00:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56150 | mensaje: client_id=send-9; group_id=2; seq=24; timestamp_ms=1778587257095; message=prueba D grupo 2
+[2026-05-12 12:00:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56164 | mensaje: client_id=send-7; group_id=2; seq=25; timestamp_ms=1778587258020; message=prueba D grupo 2
+[2026-05-12 12:00:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56170 | mensaje: client_id=send-8; group_id=2; seq=25; timestamp_ms=1778587258093; message=prueba D grupo 2
+[2026-05-12 12:00:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56184 | mensaje: client_id=send-9; group_id=2; seq=25; timestamp_ms=1778587258101; message=prueba D grupo 2
+[2026-05-12 12:00:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56192 | mensaje: client_id=send-6; group_id=2; seq=25; timestamp_ms=1778587258104; message=prueba D grupo 2
+[2026-05-12 12:00:58] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56204 | mensaje: client_id=send-10; group_id=2; seq=25; timestamp_ms=1778587258106; message=prueba D grupo 2
+[2026-05-12 12:00:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56208 | mensaje: client_id=send-7; group_id=2; seq=26; timestamp_ms=1778587259028; message=prueba D grupo 2
+[2026-05-12 12:00:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56220 | mensaje: client_id=send-8; group_id=2; seq=26; timestamp_ms=1778587259108; message=prueba D grupo 2
+[2026-05-12 12:00:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56224 | mensaje: client_id=send-6; group_id=2; seq=26; timestamp_ms=1778587259119; message=prueba D grupo 2
+[2026-05-12 12:00:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56226 | mensaje: client_id=send-9; group_id=2; seq=26; timestamp_ms=1778587259123; message=prueba D grupo 2
+[2026-05-12 12:00:59] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56232 | mensaje: client_id=send-10; group_id=2; seq=26; timestamp_ms=1778587259127; message=prueba D grupo 2
+[2026-05-12 12:01:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56236 | mensaje: client_id=send-7; group_id=2; seq=27; timestamp_ms=1778587260038; message=prueba D grupo 2
+[2026-05-12 12:01:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56242 | mensaje: client_id=send-9; group_id=2; seq=27; timestamp_ms=1778587260126; message=prueba D grupo 2
+[2026-05-12 12:01:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56244 | mensaje: client_id=send-10; group_id=2; seq=27; timestamp_ms=1778587260130; message=prueba D grupo 2
+[2026-05-12 12:01:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56256 | mensaje: client_id=send-8; group_id=2; seq=27; timestamp_ms=1778587260134; message=prueba D grupo 2
+[2026-05-12 12:01:00] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56238 | mensaje: client_id=send-6; group_id=2; seq=27; timestamp_ms=1778587260125; message=prueba D grupo 2
+[2026-05-12 12:01:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56262 | mensaje: client_id=send-7; group_id=2; seq=28; timestamp_ms=1778587261045; message=prueba D grupo 2
+[2026-05-12 12:01:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56264 | mensaje: client_id=send-9; group_id=2; seq=28; timestamp_ms=1778587261131; message=prueba D grupo 2
+[2026-05-12 12:01:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56270 | mensaje: client_id=send-10; group_id=2; seq=28; timestamp_ms=1778587261141; message=prueba D grupo 2
+[2026-05-12 12:01:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56284 | mensaje: client_id=send-6; group_id=2; seq=28; timestamp_ms=1778587261152; message=prueba D grupo 2
+[2026-05-12 12:01:01] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56286 | mensaje: client_id=send-8; group_id=2; seq=28; timestamp_ms=1778587261152; message=prueba D grupo 2
+[2026-05-12 12:01:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56296 | mensaje: client_id=send-7; group_id=2; seq=29; timestamp_ms=1778587262056; message=prueba D grupo 2
+[2026-05-12 12:01:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56308 | mensaje: client_id=send-9; group_id=2; seq=29; timestamp_ms=1778587262153; message=prueba D grupo 2
+[2026-05-12 12:01:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56322 | mensaje: client_id=send-10; group_id=2; seq=29; timestamp_ms=1778587262151; message=prueba D grupo 2
+[2026-05-12 12:01:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56328 | mensaje: client_id=send-8; group_id=2; seq=29; timestamp_ms=1778587262179; message=prueba D grupo 2
+[2026-05-12 12:01:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56330 | mensaje: client_id=send-6; group_id=2; seq=29; timestamp_ms=1778587262157; message=prueba D grupo 2
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56332 | mensaje: client_id=send-7; group_id=2; seq=30; timestamp_ms=1778587263064; message=prueba D grupo 2
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56334 | mensaje: client_id=send-10; group_id=2; seq=30; timestamp_ms=1778587263179; message=prueba D grupo 2
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56350 | mensaje: client_id=send-9; group_id=2; seq=30; timestamp_ms=1778587263188; message=prueba D grupo 2
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56360 | mensaje: client_id=send-6; group_id=2; seq=30; timestamp_ms=1778587263193; message=prueba D grupo 2
+[2026-05-12 12:01:03] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:56374 | mensaje: client_id=send-8; group_id=2; seq=30; timestamp_ms=1778587263197; message=prueba D grupo 2
+[2026-05-13 20:48:57] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:33204 | mensaje: client_id=test-01_sin_limitacion-g2; group_id=2; seq=1; timestamp_ms=1778705337757; message=Mensaje prueba 01_sin_limitacion grupo 2
+[2026-05-13 20:49:19] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:50036 | mensaje: client_id=test-02_ancho_banda_10mbit-g2; group_id=2; seq=1; timestamp_ms=1778705359146; message=Mensaje prueba 02_ancho_banda_10mbit grupo 2
+[2026-05-13 20:49:40] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:46934 | mensaje: client_id=test-03_ancho_banda_1mbit-g2; group_id=2; seq=1; timestamp_ms=1778705380639; message=Mensaje prueba 03_ancho_banda_1mbit grupo 2
+[2026-05-13 20:50:02] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:52028 | mensaje: client_id=test-04_delay_100ms-g2; group_id=2; seq=1; timestamp_ms=1778705402431; message=Mensaje prueba 04_delay_100ms grupo 2
+[2026-05-13 20:50:25] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:36448 | mensaje: client_id=test-05_delay_200ms-g2; group_id=2; seq=1; timestamp_ms=1778705424971; message=Mensaje prueba 05_delay_200ms grupo 2
+[2026-05-13 20:50:46] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:54040 | mensaje: client_id=test-06_loss_2porciento-g2; group_id=2; seq=1; timestamp_ms=1778705446690; message=Mensaje prueba 06_loss_2porciento grupo 2
+[2026-05-13 20:51:07] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:44444 | mensaje: client_id=test-07_loss_5porciento-g2; group_id=2; seq=1; timestamp_ms=1778705467885; message=Mensaje prueba 07_loss_5porciento grupo 2
+[2026-05-13 20:51:29] Grupo 2 | origen [2001:720:1d10:fff0:0:1:0:2]:55170 | mensaje: client_id=test-08_red_mala_delay_loss-g2; group_id=2; seq=1; timestamp_ms=1778705489577; message=Mensaje prueba 08_red_mala_delay_loss grupo 2
