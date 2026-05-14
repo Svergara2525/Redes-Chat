@@ -1,0 +1,12 @@
+client_id,group_id,latency_ms,meets_200ms
+receptor_g1,1,36,yes
+client_id,group_id,latency_ms,meets_200ms
+receptor-1,1,36,yes
+receptor-1,1,46,yes
+receptor-1,1,25,yes
+receptor-1,1,22,yes
+receptor_g1,1,46,yes
+receptor_g1,1,25,yes
+receptor-1,1,28,yes
+receptor_g1,1,22,yes
+receptor_g1,1,28,yes
