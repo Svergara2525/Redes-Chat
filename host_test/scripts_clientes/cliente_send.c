@@ -11,6 +11,7 @@
  *   5. Envía un mensaje por TCP.
  *   6. Incluye timestamp_ms para medir latencia extremo a extremo.
  *   7. Opcionalmente repite el envío cada X segundos.
+ *   8. Opcionalmente permite indicar un número exacto de mensajes.
  *
  * Compilación:
  *   gcc -Wall -Wextra -o cliente_send cliente_send.c
@@ -18,11 +19,13 @@
  * Uso:
  *   ./cliente_send <client_id> <group_id> "<mensaje>"
  *   ./cliente_send <client_id> <group_id> "<mensaje>" <intervalo_segundos>
+ *   ./cliente_send <client_id> <group_id> "<mensaje>" <num_mensajes> <intervalo_segundos>
  *
  * Ejemplos:
  *   ./cliente_send client-1 1 "Hola grupo 1"
  *   ./cliente_send client-1 1 "Hola grupo 1" 5
- *   ./cliente_send client-7 2 "Hola grupo 2" 2
+ *   ./cliente_send client-1 1 "Hola grupo 1" 100 5
+ *   ./cliente_send client-7 2 "Hola grupo 2" 10 2
  */
 
 #include <stdio.h>
@@ -43,6 +46,15 @@
 
 #define BUFFER_SIZE 512
 #define MESSAGE_SIZE 1024
+
+/*
+ * NUM_MESSAGES_INFINITE se usa para mantener el comportamiento antiguo:
+ * ./cliente_send c1 1 "Hola" 5
+ *
+ * En ese modo, el cliente envía indefinidamente cada 5 segundos
+ * hasta recibir Ctrl+C.
+ */
+#define NUM_MESSAGES_INFINITE (-1)
 
 static volatile sig_atomic_t running = 1;
 
@@ -297,20 +309,23 @@ int main(int argc, char *argv[])
     int group_id;
     const char *message;
     int interval_seconds = 0;
+    int num_messages = 1;
     int sequence = 1;
 
     group_info_t group_info;
 
     signal(SIGINT, handle_sigint);
 
-    if (argc != 4 && argc != 5) {
+    if (argc != 4 && argc != 5 && argc != 6) {
         fprintf(stderr, "Uso:\n");
         fprintf(stderr, "  %s <client_id> <group_id> \"<mensaje>\"\n", argv[0]);
         fprintf(stderr, "  %s <client_id> <group_id> \"<mensaje>\" <intervalo_segundos>\n", argv[0]);
+        fprintf(stderr, "  %s <client_id> <group_id> \"<mensaje>\" <num_mensajes> <intervalo_segundos>\n", argv[0]);
         fprintf(stderr, "\nEjemplos:\n");
         fprintf(stderr, "  %s client-1 1 \"Hola grupo 1\"\n", argv[0]);
         fprintf(stderr, "  %s client-1 1 \"Hola grupo 1\" 5\n", argv[0]);
-        fprintf(stderr, "  %s client-7 2 \"Hola grupo 2\" 2\n", argv[0]);
+        fprintf(stderr, "  %s client-1 1 \"Hola grupo 1\" 100 5\n", argv[0]);
+        fprintf(stderr, "  %s client-7 2 \"Hola grupo 2\" 10 2\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
@@ -324,9 +339,37 @@ int main(int argc, char *argv[])
     }
 
     if (argc == 5) {
+        /*
+         * Modo antiguo:
+         * ./cliente_send c1 1 "Hola" 5
+         *
+         * Envía indefinidamente cada 5 segundos.
+         */
         interval_seconds = atoi(argv[4]);
+        num_messages = NUM_MESSAGES_INFINITE;
 
         if (interval_seconds <= 0) {
+            fprintf(stderr, "[CLIENTE] intervalo_segundos inválido\n");
+            exit(EXIT_FAILURE);
+        }
+    }
+
+    if (argc == 6) {
+        /*
+         * Modo nuevo:
+         * ./cliente_send c1 1 "Hola" 100 5
+         *
+         * Envía exactamente 100 mensajes, uno cada 5 segundos.
+         */
+        num_messages = atoi(argv[4]);
+        interval_seconds = atoi(argv[5]);
+
+        if (num_messages <= 0) {
+            fprintf(stderr, "[CLIENTE] num_mensajes inválido\n");
+            exit(EXIT_FAILURE);
+        }
+
+        if (interval_seconds < 0) {
             fprintf(stderr, "[CLIENTE] intervalo_segundos inválido\n");
             exit(EXIT_FAILURE);
         }
@@ -338,10 +381,21 @@ int main(int argc, char *argv[])
     printf(" grupo: %d\n", group_id);
     printf(" mensaje base: %s\n", message);
 
-    if (interval_seconds > 0) {
+    if (num_messages == NUM_MESSAGES_INFINITE) {
+        printf(" modo: envío repetido indefinido\n");
         printf(" intervalo: cada %d segundos\n", interval_seconds);
     } else {
-        printf(" modo: envío único\n");
+        printf(" modo: envío limitado\n");
+        printf(" numero de mensajes: %d\n", num_messages);
+
+        if (interval_seconds > 0 && num_messages > 1) {
+            printf(" intervalo: cada %d segundos\n", interval_seconds);
+        } else if (interval_seconds > 0 && num_messages == 1) {
+            printf(" intervalo indicado: %d segundos, pero solo se enviará 1 mensaje\n",
+                   interval_seconds);
+        } else {
+            printf(" intervalo: sin espera entre mensajes\n");
+        }
     }
 
     printf("=============================================\n\n");
@@ -351,7 +405,11 @@ int main(int argc, char *argv[])
         exit(EXIT_FAILURE);
     }
 
-    do {
+    while (running) {
+        if (num_messages != NUM_MESSAGES_INFINITE && sequence > num_messages) {
+            break;
+        }
+
         if (send_message_to_group(client_id,
                                   group_id,
                                   message,
@@ -365,14 +423,23 @@ int main(int argc, char *argv[])
 
         sequence++;
 
-        if (interval_seconds > 0 && running) {
+        if (!running) {
+            break;
+        }
+
+        if (num_messages != NUM_MESSAGES_INFINITE && sequence > num_messages) {
+            break;
+        }
+
+        if (interval_seconds > 0) {
             printf("[CLIENTE %s] Esperando %d segundos...\n\n",
                    client_id,
                    interval_seconds);
             sleep((unsigned int)interval_seconds);
+        } else {
+            break;
         }
-
-    } while (interval_seconds > 0 && running);
+    }
 
     printf("\n[CLIENTE %s] Finalizando cliente emisor\n", client_id);
 
