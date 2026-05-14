@@ -31,9 +31,9 @@ echo " Clientes por perfil: $NUM_CLIENTES"
 echo " Total clientes: $((NUM_CLIENTES * 3))"
 echo "============================================="
 
-./lanzar_carga.sh baja "$GRUPO" "$NUM_CLIENTES"
-./lanzar_carga.sh media "$GRUPO" "$NUM_CLIENTES"
-./lanzar_carga.sh alta "$GRUPO" "$NUM_CLIENTES"
+./lanzarCarga.sh baja "$GRUPO" "$NUM_CLIENTES"
+./lanzarCarga.sh media "$GRUPO" "$NUM_CLIENTES"
+./lanzarCarga.sh alta "$GRUPO" "$NUM_CLIENTES"
 
 echo ""
 echo "Todos los perfiles han sido lanzados."
