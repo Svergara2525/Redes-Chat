@@ -3,7 +3,7 @@ import { ConnectSseParams } from "../Interfaces/ConnectSseParams";
 import { SendMessage } from "../Interfaces/SendMessage";
 
 export const ConexionesApi = () => {
-  const url = "http://[2001:720:1d10:fff0:0:1:0:2]:3001";
+  const url = "";
 
   return {
     sendMessage: (jsonData: SendMessage) =>
@@ -16,7 +16,7 @@ export const ConexionesApi = () => {
         }),
 
     connectMessageStream: (paramsRec: ConnectSseParams) => {
-      const streamUrl = new URL(url + "/api/messages/stream");
+      const streamUrl = new URL(url + "/api/messages/stream", window.location.origin);
       streamUrl.searchParams.set("client_id", paramsRec.client_id);
       streamUrl.searchParams.set("group_id", paramsRec.group_id);
 

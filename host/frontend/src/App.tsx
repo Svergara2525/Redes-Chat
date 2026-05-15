@@ -11,6 +11,7 @@ const GROUPS: Group[] = [
 
 function App() {
   const api = useMemo(() => ConexionesApi(), []);
+  const clientId = useMemo(() => `frontend-${crypto.randomUUID()}`, []);
   const [selectedGroup, setSelectedGroup] = useState(GROUPS[0].id);
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
@@ -30,7 +31,7 @@ function App() {
     const groupId = selectedGroup === "Grupo 1" ? "1" : "2";
 
     const source = api.connectMessageStream({
-      client_id: "frontend-client",
+      client_id: clientId,
       group_id: groupId,
       onOpen: () => {
         setError("");
@@ -62,7 +63,7 @@ function App() {
     return () => {
       source.close();
     };
-  }, [api, selectedGroup]);
+  }, [api, clientId, selectedGroup]);
 
   async function handleSubmit() {
     const trimmedMessage = message.trim();
@@ -81,7 +82,7 @@ function App() {
 
     try {
       await api.sendMessage({
-        client_id: "frontend-client",
+        client_id: clientId,
         group_id: selectedGroup === "Grupo 1" ? "1" : "2",
         message: trimmedMessage,
       });

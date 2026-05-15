@@ -22,6 +22,10 @@ const recvScript = path.join(scriptsDir, "cliente_recv");
 app.post("/api/sendMessage", (req, res) => {
   const { message } = req.body;
 
+  if (!message?.client_id || !message?.group_id || !message?.message) {
+    return res.status(400).json({ status: "Invalid message payload" });
+  }
+
   execFile(
     sendScript,
     [message.client_id, message.group_id, message.message],
@@ -40,15 +44,31 @@ app.post("/api/sendMessage", (req, res) => {
 app.get("/api/messages/stream", (req, res) => {
   const { client_id, group_id } = req.query;
 
+  if (!client_id || !group_id) {
+    return res.status(400).json({ status: "Missing client_id or group_id" });
+  }
+
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "text/event-stream");
-  res.setHeader("Cache-Control", "no-cache");
+  res.setHeader("Cache-Control", "no-cache, no-transform");
   res.setHeader("Connection", "keep-alive");
+  res.flushHeaders?.();
 
+  console.log("SSE open:", client_id, group_id, req.headers.origin);
   res.write("data: Connected to Back\n\n");
 
   const proc = spawn(recvScript, [client_id, group_id], {
     stdio: "pipe",
+  });
+
+  const heartbeat = setInterval(() => {
+    res.write(": keepalive\n\n");
+  }, 25000);
+
+  proc.on("error", (error) => {
+    console.error("Error starting recv:", error);
+    clearInterval(heartbeat);
+    res.end();
   });
 
   proc.stdout.on("data", (d) => {
@@ -62,12 +82,17 @@ app.get("/api/messages/stream", (req, res) => {
   });
 
   proc.on("close", (code) => {
-    console.log("Exit code:", code);
+    console.log("SSE recv closed:", client_id, group_id, code);
+    clearInterval(heartbeat);
     res.end();
   });
 
   req.on("close", () => {
-    proc.kill("SIGINT");
+    console.log("SSE client closed:", client_id, group_id);
+    clearInterval(heartbeat);
+    if (!proc.killed) {
+      proc.kill("SIGINT");
+    }
   });
 });
 
