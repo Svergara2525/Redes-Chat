@@ -99,7 +99,7 @@ app.get("/api/messages/stream", (req, res) => {
 
       console.log(line);
 
-      if (parsedMessage?.message) {
+      if (parsedMessage?.message && parsedMessage.client_id !== client_id) {
         res.write(`data: ${JSON.stringify(parsedMessage)}\n\n`);
       }
     });
