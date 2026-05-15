@@ -1,0 +1,5 @@
+Frontend:
+npm run build -> se guarda el compilado en host/frontend/dist
+
+Backend:
+node backend.js -> sirve el frontend desde la ruta dist
