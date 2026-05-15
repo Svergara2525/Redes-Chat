@@ -18,6 +18,7 @@ app.use(express.json());
 const scriptsDir = path.resolve(__dirname, "../scripts_clientes");
 const sendScript = path.join(scriptsDir, "cliente_send");
 const recvScript = path.join(scriptsDir, "cliente_recv");
+const frontendDistDir = path.resolve(__dirname, "../frontend/dist");
 
 app.post("/api/sendMessage", (req, res) => {
   const { message } = req.body;
@@ -94,6 +95,12 @@ app.get("/api/messages/stream", (req, res) => {
       proc.kill("SIGINT");
     }
   });
+});
+
+app.use(express.static(frontendDistDir));
+
+app.get(/^(?!\/api).*/, (req, res) => {
+  res.sendFile(path.join(frontendDistDir, "index.html"));
 });
 
 app.listen(3001, "::", () => {
