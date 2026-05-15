@@ -3,7 +3,7 @@ import { ConnectSseParams } from "../Interfaces/ConnectSseParams";
 import { SendMessage } from "../Interfaces/SendMessage";
 
 export const ConexionesApi = () => {
-  const url = "http://localhost:3001";
+  const url = "http://[2001:720:1d10:fff0:0:1:0:2]:3001";
 
   return {
     sendMessage: (jsonData: SendMessage) =>
