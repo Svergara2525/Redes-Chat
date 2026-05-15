@@ -9,9 +9,16 @@ const GROUPS: Group[] = [
   { id: "Grupo 2", name: "Grupo 2" },
 ];
 
+function createClientId() {
+  const randomValues = new Uint32Array(2);
+  window.crypto?.getRandomValues?.(randomValues);
+
+  return `frontend-${Date.now()}-${randomValues[0].toString(16)}-${randomValues[1].toString(16)}`;
+}
+
 function App() {
   const api = useMemo(() => ConexionesApi(), []);
-  const clientId = useMemo(() => `frontend-${crypto.randomUUID()}`, []);
+  const clientId = useMemo(() => createClientId(), []);
   const [selectedGroup, setSelectedGroup] = useState(GROUPS[0].id);
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
