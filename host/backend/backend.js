@@ -21,8 +21,8 @@ const recvScript = path.join(scriptsDir, "cliente_recv");
 const frontendDistDir = path.resolve(__dirname, "../frontend/dist");
 
 function parseReceivedMessage(line) {
-  const clientMatch = line.match(/(?:^|;\s*)client_id=([^;\n\r]+)/);
-  const messageMatch = line.match(/(?:^|;\s*)message=([^\n\r]*)/);
+  const clientMatch = line.match(/client_id=([^;\n\r]+)/);
+  const messageMatch = line.match(/message=([^\n\r]*)/);
 
   if (!messageMatch) {
     return null;
@@ -99,7 +99,12 @@ app.get("/api/messages/stream", (req, res) => {
 
       console.log(line);
 
-      if (parsedMessage?.message && parsedMessage.client_id !== client_id) {
+      if (parsedMessage?.message) {
+        if (parsedMessage.client_id === client_id) {
+          console.log("SSE ignored own message:", client_id);
+          return;
+        }
+
         res.write(`data: ${JSON.stringify(parsedMessage)}\n\n`);
       }
     });
