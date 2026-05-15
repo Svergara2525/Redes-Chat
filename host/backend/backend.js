@@ -20,6 +20,20 @@ const sendScript = path.join(scriptsDir, "cliente_send");
 const recvScript = path.join(scriptsDir, "cliente_recv");
 const frontendDistDir = path.resolve(__dirname, "../frontend/dist");
 
+function parseReceivedMessage(line) {
+  const clientMatch = line.match(/(?:^|;\s*)client_id=([^;\n\r]+)/);
+  const messageMatch = line.match(/(?:^|;\s*)message=([^\n\r]*)/);
+
+  if (!messageMatch) {
+    return null;
+  }
+
+  return {
+    client_id: clientMatch?.[1] ?? "",
+    message: messageMatch[1].trim(),
+  };
+}
+
 app.post("/api/sendMessage", (req, res) => {
   const { message } = req.body;
 
@@ -58,9 +72,11 @@ app.get("/api/messages/stream", (req, res) => {
   console.log("SSE open:", client_id, group_id, req.headers.origin);
   res.write("data: Connected to Back\n\n");
 
-  const proc = spawn(recvScript, [client_id, group_id], {
+  const proc = spawn("stdbuf", ["-oL", "-eL", recvScript, client_id, group_id], {
     stdio: "pipe",
   });
+
+  let stdoutBuffer = "";
 
   const heartbeat = setInterval(() => {
     res.write(": keepalive\n\n");
@@ -73,9 +89,20 @@ app.get("/api/messages/stream", (req, res) => {
   });
 
   proc.stdout.on("data", (d) => {
-    const text = d.toString().trim();
-    console.log(text);
-    res.write(`data: ${JSON.stringify({ message: text })}\n\n`);
+    stdoutBuffer += d.toString();
+
+    const lines = stdoutBuffer.split(/\r?\n/);
+    stdoutBuffer = lines.pop() ?? "";
+
+    lines.forEach((line) => {
+      const parsedMessage = parseReceivedMessage(line);
+
+      console.log(line);
+
+      if (parsedMessage?.message) {
+        res.write(`data: ${JSON.stringify(parsedMessage)}\n\n`);
+      }
+    });
   });
 
   proc.stderr.on("data", (d) => {

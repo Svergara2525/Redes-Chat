@@ -46,7 +46,11 @@ function App() {
       onMessage: (data) => {
         const receivedMessage = data.message.trim();
 
-        if (!receivedMessage || receivedMessage === "Connected to Back") {
+        if (
+          !receivedMessage ||
+          receivedMessage === "Connected to Back" ||
+          data.client_id === clientId
+        ) {
           return;
         }
 
