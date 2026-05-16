@@ -1,0 +1,6 @@
+client_id,group_id,latency_ms,meets_200ms
+frontend-1778869839207-7d1307fe-3427718c,2,14,yes
+frontend-1778870584775-fe67f4d9-e1ddd068,2,12,yes
+frontend-1778870586980-b6727b8f-90d46512,2,17,yes
+frontend-1778870586980-b6727b8f-90d46512,2,2,yes
+frontend-1778870584775-fe67f4d9-e1ddd068,2,6,yes
