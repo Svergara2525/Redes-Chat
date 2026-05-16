@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450.0' y='30' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700'>Bitrate UDP recibido</text>
+<line x1='75' y1='445' x2='855' y2='445' stroke='#333'/>
+<line x1='75' y1='60' x2='75' y2='445' stroke='#333'/>
+<text x='450.0' y='500' text-anchor='middle' font-family='Arial' font-size='14'>Bitrate UDP configurado (Mbit/s)</text>
+<text x='22' y='252.5' transform='rotate(-90 22 252.5)' text-anchor='middle' font-family='Arial' font-size='14'>Bitrate recibido (Mbit/s)</text>
+<line x1='75' y1='445.0' x2='855' y2='445.0' stroke='#ddd'/>
+<text x='65' y='449.0' text-anchor='end' font-family='Arial' font-size='12'>0.0</text>
+<line x1='75' y1='368.0' x2='855' y2='368.0' stroke='#ddd'/>
+<text x='65' y='372.0' text-anchor='end' font-family='Arial' font-size='12'>12.9</text>
+<line x1='75' y1='291.0' x2='855' y2='291.0' stroke='#ddd'/>
+<text x='65' y='295.0' text-anchor='end' font-family='Arial' font-size='12'>25.7</text>
+<line x1='75' y1='214.0' x2='855' y2='214.0' stroke='#ddd'/>
+<text x='65' y='218.0' text-anchor='end' font-family='Arial' font-size='12'>38.6</text>
+<line x1='75' y1='137.0' x2='855' y2='137.0' stroke='#ddd'/>
+<text x='65' y='141.0' text-anchor='end' font-family='Arial' font-size='12'>51.4</text>
+<line x1='75' y1='60.0' x2='855' y2='60.0' stroke='#ddd'/>
+<text x='65' y='64.0' text-anchor='end' font-family='Arial' font-size='12'>64.3</text>
+<line x1='75.0' y1='445' x2='75.0' y2='451' stroke='#333'/>
+<text x='75.0' y='469' text-anchor='middle' font-family='Arial' font-size='12'>10</text>
+<line x1='421.7' y1='445' x2='421.7' y2='451' stroke='#333'/>
+<text x='421.7' y='469' text-anchor='middle' font-family='Arial' font-size='12'>50</text>
+<line x1='855.0' y1='445' x2='855.0' y2='451' stroke='#333'/>
+<text x='855.0' y='469' text-anchor='middle' font-family='Arial' font-size='12'>100</text>
+<path d='M 69.0 385.1 L 415.7 158.1 L 849.0 110.2' fill='none' stroke='#2878b5' stroke-width='2.5'/>
+<circle cx='69.0' cy='385.1' r='4.5' fill='#2878b5'/>
+<text x='69.0' y='376.1' text-anchor='middle' font-family='Arial' font-size='11'>10.0</text>
+<circle cx='415.7' cy='158.1' r='4.5' fill='#2878b5'/>
+<text x='415.7' y='149.1' text-anchor='middle' font-family='Arial' font-size='11'>47.9</text>
+<circle cx='849.0' cy='110.2' r='4.5' fill='#2878b5'/>
+<text x='849.0' y='101.2' text-anchor='middle' font-family='Arial' font-size='11'>55.9</text>
+<path d='M 81.0 385.1 L 427.7 158.1 L 861.0 114.4' fill='none' stroke='#d95f02' stroke-width='2.5'/>
+<circle cx='81.0' cy='385.1' r='4.5' fill='#d95f02'/>
+<text x='81.0' y='376.1' text-anchor='middle' font-family='Arial' font-size='11'>10.0</text>
+<circle cx='427.7' cy='158.1' r='4.5' fill='#d95f02'/>
+<text x='427.7' y='149.1' text-anchor='middle' font-family='Arial' font-size='11'>47.9</text>
+<circle cx='861.0' cy='114.4' r='4.5' fill='#d95f02'/>
+<text x='861.0' y='105.4' text-anchor='middle' font-family='Arial' font-size='11'>55.2</text>
+<circle cx='720' cy='56' r='5' fill='#2878b5'/><text x='735' y='61' font-family='Arial' font-size='13'>M2</text>
+<circle cx='720' cy='80' r='5' fill='#d95f02'/><text x='735' y='85' font-family='Arial' font-size='13'>M3</text>
+</svg>
