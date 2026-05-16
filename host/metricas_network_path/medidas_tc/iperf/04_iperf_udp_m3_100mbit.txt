@@ -1,0 +1,21 @@
+PRUEBA: 04_iperf_udp_m3_100mbit
+sáb 16 may 2026 14:04:49 CEST
+Connecting to host 2001:720:1d10:fff0:216:3eff:fe4f:b1a8, port 5201
+[  5] local 2001:720:1d10:fff0:0:1:0:2 port 49860 connected to 2001:720:1d10:fff0:216:3eff:fe4f:b1a8 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  11.7 MBytes  98.3 Mbits/sec  10173  
+[  5]   1.00-2.01   sec  12.1 MBytes   100 Mbits/sec  10483  
+[  5]   2.01-3.00   sec  12.0 MBytes   102 Mbits/sec  10381  
+[  5]   3.00-4.01   sec  11.9 MBytes  98.4 Mbits/sec  10313  
+[  5]   4.01-5.00   sec  12.0 MBytes   102 Mbits/sec  10380  
+[  5]   5.00-6.00   sec  11.7 MBytes  97.9 Mbits/sec  10141  
+[  5]   6.00-7.00   sec  12.2 MBytes   102 Mbits/sec  10555  
+[  5]   7.00-8.01   sec  11.8 MBytes  98.1 Mbits/sec  10285  
+[  5]   8.01-9.01   sec  12.0 MBytes   100 Mbits/sec  10381  
+[  5]   9.01-10.00  sec  11.8 MBytes   100 Mbits/sec  10213  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   119 MBytes  99.8 Mbits/sec  0.000 ms  0/103305 (0%)  sender
+[  5]   0.00-10.02  sec  65.9 MBytes  55.2 Mbits/sec  0.647 ms  46097/103305 (45%)  receiver
+
+iperf Done.
