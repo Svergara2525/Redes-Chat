@@ -1,0 +1,17 @@
+orden,escenario,escenario_label,fecha,regla_tc,qdisc,destino,paquetes_tx,paquetes_rx,perdida_ping_pct,rtt_min_ms,rtt_media_ms,rtt_max_ms,mdev_ms
+1,01_sin_limitacion,Sin limitacion,mié 13 may 2026 22:48:34 CEST,sin_limitacion,qdisc noqueue 0: root refcnt 2,M2,10,10,0.0,0.058,0.076,0.136,0.023
+1,01_sin_limitacion,Sin limitacion,mié 13 may 2026 22:48:34 CEST,sin_limitacion,qdisc noqueue 0: root refcnt 2,M3,10,10,0.0,0.029,0.211,0.608,0.234
+2,02_ancho_banda_10mbit,BW 10 Mbit,mié 13 may 2026 22:49:00 CEST,sudo tc qdisc add dev br6 root tbf rate 10mbit burst 32kbit latency 400ms,qdisc tbf 8001: root refcnt 2 rate 10Mbit burst 4Kb lat 400ms,M2,10,10,0.0,0.028,0.067,0.091,0.015
+2,02_ancho_banda_10mbit,BW 10 Mbit,mié 13 may 2026 22:49:00 CEST,sudo tc qdisc add dev br6 root tbf rate 10mbit burst 32kbit latency 400ms,qdisc tbf 8001: root refcnt 2 rate 10Mbit burst 4Kb lat 400ms,M3,10,10,0.0,0.032,0.062,0.073,0.011
+3,03_ancho_banda_1mbit,BW 1 Mbit,mié 13 may 2026 22:49:21 CEST,sudo tc qdisc add dev br6 root tbf rate 1mbit burst 16kbit latency 400ms,qdisc tbf 8002: root refcnt 2 rate 1Mbit burst 2Kb lat 400ms,M2,10,10,0.0,0.03,0.068,0.092,0.015
+3,03_ancho_banda_1mbit,BW 1 Mbit,mié 13 may 2026 22:49:21 CEST,sudo tc qdisc add dev br6 root tbf rate 1mbit burst 16kbit latency 400ms,qdisc tbf 8002: root refcnt 2 rate 1Mbit burst 2Kb lat 400ms,M3,10,10,0.0,0.027,0.07,0.087,0.015
+4,04_delay_100ms,Delay 100 ms,mié 13 may 2026 22:49:43 CEST,sudo tc qdisc add dev br6 root netem delay 100ms,qdisc netem 8003: root refcnt 2 limit 1000 delay 100ms,M2,10,10,0.0,100.268,100.42,100.713,0.151
+4,04_delay_100ms,Delay 100 ms,mié 13 may 2026 22:49:43 CEST,sudo tc qdisc add dev br6 root netem delay 100ms,qdisc netem 8003: root refcnt 2 limit 1000 delay 100ms,M3,10,10,0.0,100.322,100.337,100.402,0.022
+5,05_delay_200ms,Delay 200 ms,mié 13 may 2026 22:50:05 CEST,sudo tc qdisc add dev br6 root netem delay 200ms,qdisc netem 8004: root refcnt 2 limit 1000 delay 200ms,M2,10,10,0.0,200.296,200.342,200.393,0.025
+5,05_delay_200ms,Delay 200 ms,mié 13 may 2026 22:50:05 CEST,sudo tc qdisc add dev br6 root netem delay 200ms,qdisc netem 8004: root refcnt 2 limit 1000 delay 200ms,M3,10,10,0.0,200.291,200.404,200.873,0.168
+6,06_loss_2porciento,Loss 2%,mié 13 may 2026 22:50:28 CEST,sudo tc qdisc add dev br6 root netem loss 2%,qdisc netem 8005: root refcnt 2 limit 1000 loss 2%,M2,10,10,0.0,0.029,0.063,0.084,0.013
+6,06_loss_2porciento,Loss 2%,mié 13 may 2026 22:50:28 CEST,sudo tc qdisc add dev br6 root netem loss 2%,qdisc netem 8005: root refcnt 2 limit 1000 loss 2%,M3,10,10,0.0,0.037,0.061,0.072,0.008
+7,07_loss_5porciento,Loss 5%,mié 13 may 2026 22:50:49 CEST,sudo tc qdisc add dev br6 root netem loss 5%,qdisc netem 8006: root refcnt 2 limit 1000 loss 5%,M2,10,10,0.0,0.028,0.066,0.122,0.021
+7,07_loss_5porciento,Loss 5%,mié 13 may 2026 22:50:49 CEST,sudo tc qdisc add dev br6 root netem loss 5%,qdisc netem 8006: root refcnt 2 limit 1000 loss 5%,M3,10,10,0.0,0.035,0.06,0.065,0.008
+8,08_red_mala_delay_loss,Delay 100 ms + loss 2%,mié 13 may 2026 22:51:10 CEST,sudo tc qdisc add dev br6 root netem delay 100ms loss 2%,qdisc netem 8007: root refcnt 2 limit 1000 delay 100ms loss 2%,M2,10,10,0.0,100.298,100.439,100.985,0.203
+8,08_red_mala_delay_loss,Delay 100 ms + loss 2%,mié 13 may 2026 22:51:10 CEST,sudo tc qdisc add dev br6 root netem delay 100ms loss 2%,qdisc netem 8007: root refcnt 2 limit 1000 delay 100ms loss 2%,M3,10,10,0.0,100.313,100.366,100.48,0.054

@@ -1,17 +1,8 @@
 const { execFile, spawn } = require("node:child_process");
 const path = require("node:path");
 const express = require("express");
-const cors = require("cors");
 
 const app = express();
-
-app.use(
-  cors({
-    origin: "*",
-    methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Content-Type"],
-  }),
-);
 
 app.use(express.json());
 
@@ -63,7 +54,6 @@ app.get("/api/messages/stream", (req, res) => {
     return res.status(400).json({ status: "Missing client_id or group_id" });
   }
 
-  res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "text/event-stream");
   res.setHeader("Cache-Control", "no-cache, no-transform");
   res.setHeader("Connection", "keep-alive");

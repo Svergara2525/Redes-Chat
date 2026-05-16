@@ -1,5 +1,5 @@
-receptor_g1,1,10,yes
 client_id,group_id,latency_ms,meets_200ms
+receptor_g1,1,10,yes
 receptor-1,1,9,yes
 receptor-1,1,2,yes
 receptor_g1,1,10,yes
