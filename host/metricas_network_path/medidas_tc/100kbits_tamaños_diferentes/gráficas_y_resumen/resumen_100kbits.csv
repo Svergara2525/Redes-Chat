@@ -1,0 +1,9 @@
+archivo,condicion,tamano_bytes,destino,transmitidos,recibidos,perdida_pct,rtt_min_ms,rtt_avg_ms,rtt_max_ms,mdev_ms
+01_sin_limitacion_120bytes.txt,Sin limitacion,120,M2,50,50,0.0,0.058,0.081,0.235,0.034
+01_sin_limitacion_120bytes.txt,Sin limitacion,120,M3,50,50,0.0,0.049,0.075,0.24,0.03
+01_sin_limitacion_512bytes.txt,Sin limitacion,512,M2,50,50,0.0,0.032,0.064,0.103,0.009
+01_sin_limitacion_512bytes.txt,Sin limitacion,512,M3,50,50,0.0,0.033,0.062,0.076,0.005
+02_ancho_banda_100kbit_120bytes.txt,100 kbit/s,120,M2,50,50,0.0,0.063,0.08,0.184,0.023
+02_ancho_banda_100kbit_120bytes.txt,100 kbit/s,120,M3,50,50,0.0,0.059,0.2,6.315,0.873
+02_ancho_banda_100kbit_512bytes.txt,100 kbit/s,512,M2,50,50,0.0,0.06,0.85,23.598,3.861
+02_ancho_banda_100kbit_512bytes.txt,100 kbit/s,512,M3,50,50,0.0,0.054,1.084,35.855,5.395
